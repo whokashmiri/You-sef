@@ -3,6 +3,8 @@ import Home from './components/Home'
 import { HublotPage } from './components/HublotPage'
 import GraffPage from './components/GraffPage'
 import ChopardPage from './components/ChopardPage'
+import ItemDetails from './components/ItemDetails'
+import ContactUs from './components/Contact'
 
 
 
@@ -20,6 +22,9 @@ function App() {
       <Route path="/hublot" element={<HublotPage />} />
       <Route path="/graff" element={<GraffPage />} />
       <Route path="/chopard" element={<ChopardPage/>} />
+       <Route path="/item/:id" element={<ItemDetails />} />
+
+        <Route path="/contact" element={<ContactUs/>} />
 
 
       {/* <Route path="/odoo-integration" element={<OodoIntegration />} /> */} 
