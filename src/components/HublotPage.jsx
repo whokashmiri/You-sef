@@ -11,7 +11,7 @@ export const HublotPage = () => {
     <>
     <Header/>
     <HublotShow/>
-    <ProductCarousel/>
+    {/* <ProductCarousel/> */}
     <ItemsList/>
     <NewsletterSection/>
     <Footer/>

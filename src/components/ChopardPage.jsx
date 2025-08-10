@@ -4,14 +4,14 @@ import Footer from './Footer'
 import Hero from './Hero'
 import ProductCarousel2 from './ProductCarousel2'
 import ProductCarousel4 from './ProductCarousel4'
+import ChopardItemsList from './ChopardItemsList'
 
 const ChopardPage = () => {
   return (
     <>
      <Header/>
-     <Hero/>
-<ProductCarousel2/>
-<ProductCarousel4/>
+
+<ChopardItemsList/>
     <NewsletterSection/>
     <Footer/>
     </>

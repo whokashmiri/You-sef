@@ -13,9 +13,9 @@ const menuConfig = {
       { label: "Hublot", to: "/hublot" },
       { label: "Graff", to: "/graff" },
       { label: "Chopard", to: "/chopard" },
-      { label: "Patek Philippe", to: "/watches/patek-philippe" },
-      { label: "Audemars Piguet", to: "/watches/audemars-piguet" },
-      { label: "Omega", to: "/watches/omega" },
+      // { label: "Patek Philippe", to: "/watches/patek-philippe" },
+      // { label: "Audemars Piguet", to: "/watches/audemars-piguet" },
+      // { label: "Omega", to: "/watches/omega" },
     ],
   },
   Jewelry: {
@@ -153,7 +153,7 @@ const Header = () => {
 
                 {hasChildren && openDropdown === label && (
                   <div className="absolute left-1/2 -translate-x-1/2 pt-3">
-                    <div className="min-w-[520px] rounded-2xl shadow-2xl border border-black/5 bg-white text-black p-4 grid grid-cols-2 gap-2">
+                    <div className="min-w-[520px] rounded-2xl shadow-2xl border border-black/5 bg-white text-black p-4 grid grid-cols-1 gap-2">
                       {cfg.children.map((child) => (
                         <Link
                           key={child.label}
