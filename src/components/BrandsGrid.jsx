@@ -63,7 +63,7 @@ const BrandsCarousel = () => {
   );
 
   return (
-    <div className="px-4 py-8">
+    <div className="px-4 py-8 bg-white">
       <div ref={sliderRef} className="keen-slider">
         {BRAND_LOGOS.map((url, i) => (
           <div
