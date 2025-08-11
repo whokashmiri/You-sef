@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
 import NewsletterSection from "./NewsletterSection";
 import Footer from "./Footer";
@@ -33,7 +34,7 @@ return (
           transition={{ duration: 0.6 }}
           className="text-4xl md:text-6xl font-extrabold tracking-wide mb-6"
         >
-          About <span className="text-yellow-500">LuxeTime Arabia</span>
+          About <span className="text-yellow-500">Khaleeji Arabia</span>
         </motion.h1>
 
         <motion.p
@@ -42,7 +43,7 @@ return (
           transition={{ delay: 0.2, duration: 0.6 }}
           className="text-lg md:text-xl max-w-3xl leading-relaxed mb-10"
         >
-          Based in the heart of the Kingdom of Saudi Arabia, LuxeTime Arabia
+          Based in the heart of the Kingdom of Saudi Arabia, Khaleeji Arabia
           offers a curated selection of premium timepieces and exquisite
           jewelry. Our philosophy is built on **precision, elegance, and
           timeless design**. We partner exclusively with the world’s most
