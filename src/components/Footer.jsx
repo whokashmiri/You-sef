@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
 
         {/* Our Maison */}
-        <div>
+        {/* <div>
           <h4 className="text-white font-semibold mb-3 uppercase">Our Maison</h4>
           <ul className="space-y-2 text-gray-300">
             <li>Corporate Information</li>
@@ -93,7 +93,7 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Stay Up to Date */}
         <div className="md:col-span-2">

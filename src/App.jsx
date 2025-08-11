@@ -8,6 +8,8 @@ import ContactUs from './components/Contact'
 import ChopardJewelry from './components/ChopardJewelry'
 import AzzaJewelry from './components/AzzaJewelry'
 import GraffJewelry from './components/GraffJewelry'
+import AboutUs from './components/AboutUs.jsx'
+
 
 
 
@@ -30,7 +32,9 @@ function App() {
         <Route path="/contact" element={<ContactUs/>} />
         <Route path="/choprdjewelry" element={<ChopardJewelry/>} />
         <Route path="/azza" element={<AzzaJewelry/>} />
-          <Route path="/graffjewelry" element={<GraffJewelry/>} />
+        <Route path="/graffjewelry" element={<GraffJewelry/>} />
+        <Route path="/about" element={<AboutUs/>} />
+
 
 
 
