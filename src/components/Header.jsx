@@ -21,11 +21,11 @@ const menuConfig = {
   Jewelry: {
     to: "/jewelry",
     children: [
-      { label: "Necklaces", to: "/jewelry/necklaces" },
-      { label: "Earrings", to: "/jewelry/earrings" },
-      { label: "Bracelets", to: "/jewelry/bracelets" },
-      { label: "Rings", to: "/jewelry/rings" },
-      { label: "Brooches", to: "/jewelry/brooches" },
+      { label: "Chopard", to: "/choprdjewelry" },
+      { label: "Azza Fahmy", to: "/azza" },
+      { label: "Graff", to: "/graffjewelry" },
+      { label: "Luvor", to: "/luvor" },
+      { label: "Brooches", to: "/brooches" },
       { label: "Sets", to: "/jewelry/sets" },
     ],
   },
