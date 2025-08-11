@@ -17,7 +17,7 @@ const products = [
     // description: '18-CARAT WHITE GOLD AND DIAMONDS',
   },
   {
-    image: "hthttps://azzafahmy.com/cdn/shop/files/crsg.21-003_1.jpg?v=1706018508&width=800",
+    image: "https://azzafahmy.com/cdn/shop/files/crsg.21-003_1.jpg?v=1706018508&width=800",
     title: "Blessings Chain Ring",
     price: 'SAR 9000',
     // description: '',
