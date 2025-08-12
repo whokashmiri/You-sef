@@ -18,15 +18,15 @@ const menuConfig = {
       // { label: "Omega", to: "/watches/omega" },
     ],
   },
-  Jewelry: {
-    to: "/jewelry",
+  "Jewelry & Accesories": {
+    to: "",
     children: [
       { label: "Chopard", to: "/choprdjewelry" },
       { label: "Azza Fahmy", to: "/azza" },
       { label: "Graff", to: "/graffjewelry" },
       { label: "Luvor", to: "/luvor" },
-      { label: "Brooches", to: "/brooches" },
-      { label: "Sets", to: "/jewelry/sets" },
+      { label: "Saint Louis", to: "/st" },
+      // { label: "Sets", to: "/jewelry/sets" },
     ],
   },
   "Contact Us": { to: "/contact" },
@@ -106,7 +106,7 @@ const Header = () => {
           <div className="hidden md:flex items-center gap-6 text-sm">
             <span className="cursor-pointer">🌐</span>
             <Link to="/contact" className="cursor-pointer">Contact Us</Link>
-            <Link to="/boutique" className="cursor-pointer">Boutique</Link>
+            <Link to="/find" className="cursor-pointer">Boutique</Link>
           </div>
 
           {/* Logo */}

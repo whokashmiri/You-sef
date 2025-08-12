@@ -9,6 +9,9 @@ import ChopardJewelry from './components/ChopardJewelry'
 import AzzaJewelry from './components/AzzaJewelry'
 import GraffJewelry from './components/GraffJewelry'
 import AboutUs from './components/AboutUs.jsx'
+import StLiuosShowPage from './components/StShowPage.jsx'
+import LuvorShowPage from './components/LuvorShowPage.jsx'
+import FindBoutique from './components/FindBoutique.jsx'
 
 
 
@@ -34,6 +37,11 @@ function App() {
         <Route path="/azza" element={<AzzaJewelry/>} />
         <Route path="/graffjewelry" element={<GraffJewelry/>} />
         <Route path="/about" element={<AboutUs/>} />
+        <Route path="/st" element={<StLiuosShowPage/>} />
+        <Route path="/luvor" element={<LuvorShowPage/>} />
+        <Route path="/find" element={<FindBoutique/>} />
+
+
 
 
 
