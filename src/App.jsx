@@ -12,6 +12,7 @@ import AboutUs from './components/AboutUs.jsx'
 import StLiuosShowPage from './components/StShowPage.jsx'
 import LuvorShowPage from './components/LuvorShowPage.jsx'
 import FindBoutique from './components/FindBoutique.jsx'
+import Appointment from "./components/Appointment.jsx"
 
 
 
@@ -40,6 +41,8 @@ function App() {
         <Route path="/st" element={<StLiuosShowPage/>} />
         <Route path="/luvor" element={<LuvorShowPage/>} />
         <Route path="/find" element={<FindBoutique/>} />
+        <Route path="/appointment" element={<Appointment/>} />
+
 
 
 
