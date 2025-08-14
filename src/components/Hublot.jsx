@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Hoblot = () => {
   return (
@@ -21,9 +22,9 @@ const Hoblot = () => {
         <h1 className="text-white uppercase text-4xl md:text-6xl font-light mb-6">
           Hoblot 2025
         </h1>
-        <button className="px-6 py-3 bg-slate-600 bg-opacity-20 backdrop-blur-md text-white text-sm uppercase tracking-widest hover:bg-gray-700 transition">
+        <Link to="/hublot" className="px-6 py-3 bg-slate-600 bg-opacity-20 backdrop-blur-md text-white text-sm uppercase tracking-widest hover:bg-gray-700 transition">
           Discover the Collection
-        </button>
+        </Link>
       </div>
     </section>
   );

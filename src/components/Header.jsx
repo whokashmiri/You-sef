@@ -111,7 +111,7 @@ const Header = () => {
 
           {/* Logo */}
           <div className="text-3xl font-signature italic tracking-wide">
-            <Link to="/">Khaleegi</Link>
+            <Link to="/">AU Beta</Link>
           </div>
 
           {/* Right */}

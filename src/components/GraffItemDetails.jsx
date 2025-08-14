@@ -80,7 +80,7 @@ export default function ItemDetails() {
       {/* <label className="block font-medium mb-2">Make An Appointment</label> */}
       <button
         onClick={() => navigate("/appointment")}
-        className="border uppercase  px-5 py-4 w-full  text-white bg-red-800 hover:bg-red-700 transition"
+        className="border  px-5 py-4 w-full  text-white bg-red-800 hover:bg-red-700 transition"
       >
         Make an Appointment
       </button>

@@ -12,6 +12,7 @@ import {
   CreditCard,
   Recycle,
 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -51,15 +52,15 @@ const Footer = () => {
         <div>
           <h4 className="text-white font-semibold mb-3 uppercase">Contact</h4>
           <ul className="space-y-2 text-gray-300">
-            <li className="flex items-center gap-2">
+            <Link to="/contact" className="flex items-center gap-2">
               <Mail size={14} /> Contact Us
-            </li>
-            <li className="flex items-center gap-2">
+            </Link>
+            <Link to="/find" className="flex items-center gap-2">
               <MapPin size={14} /> Find a Boutique
-            </li>
-            <li className="flex items-center gap-2">
+            </Link>
+            <Link to="/appointment" className="flex items-center gap-2">
               <Calendar size={14} /> Book an Appointment
-            </li>
+            </Link>
           </ul>
         </div>
 
@@ -84,7 +85,7 @@ const Footer = () => {
             <li>Corporate Information</li>
             <li>
               <a href="#" target="_blank" rel="noreferrer">
-                Careers at Khaleegi ↗
+                Careers at AU Beta ↗
               </a>
             </li>
             <li>
@@ -122,7 +123,7 @@ const Footer = () => {
           <a href="#">Terms of Sale</a>
           <a href="#">Alert Line</a>
         </div>
-        <span>© 2025 Khaleegi – All rights reserved</span>
+        <span>© 2025 AU Beta – All rights reserved</span>
       </div>
     </footer>
   );

@@ -21,16 +21,20 @@ const HublotShow = () => {
       {/* <div className="absolute inset-0 bg-black bg-opacity-30 z-10"></div> */}
 
       {/* Content */}
-      <div className="relative z-20 h-full flex flex-col items-end justify-end text-center px-4 pt-16">
-        <p className="text-white uppercase text-sm tracking-widest mb-2">
-          New Timeless Section Revealed
+        <div className="relative z-20 flex flex-col items-center justify-end h-full text-center px-4 pb-16">
+
+        <p className="text-white uppercase tracking-widest text-sm md:text-base">
+          New Time Pieces Revealed
         </p>
-        <h1 className="text-white uppercase text-4xl md:text-6xl font-light mb-6">
-          Hoblot 2025
+        <h1 className="text-white text-4xl md:text-6xl font-light mt-4">
+          Hublot 2025
         </h1>
-        <button className="px-6 py-3 bg-slate-600 bg-opacity-20 backdrop-blur-md text-white text-sm uppercase tracking-widest hover:bg-gray-700 transition">
-          Discover the Collection
-        </button>
+         <button className="mt-6 px-6 py-3 bg-white text-black text-sm font-semibold tracking-wide uppercase hover:bg-gray-200 transition flex items-center gap-2">
+  Discover the Collection
+  <span className="animate-bounce">
+    ↓
+  </span>
+</button>
       </div>
     </section>
   );

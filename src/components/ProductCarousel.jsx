@@ -2,6 +2,7 @@ import React from 'react';
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import { Heart } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const products = [
   {
@@ -69,7 +70,7 @@ const ProductCarousel = () => {
     <div className="bg-black py-10 px-4 md:px-12">
       <div ref={sliderRef} className="keen-slider">
         {products.map((product, index) => (
-          <div
+          <Link to="/hublot"
             key={index}
             className="keen-slider__slide bg-[#121212] p-4 flex flex-col justify-between relative group transition-all duration-300 hover:scale-105"
           >
@@ -100,7 +101,7 @@ const ProductCarousel = () => {
               <p className="text-xs mt-1 opacity-70">{product.price}</p>
               <p className="text-xs mt-2 opacity-50">{product.description}</p>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

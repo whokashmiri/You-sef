@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 const LAYOUT_COUNTS = [3, 2, 1];
 
@@ -83,12 +84,12 @@ const Hero2 = ({
             <h1 className="text-2xl md:text-4xl font-bold leading-tight text-white mb-4">
               {heading}
             </h1>
-            <button
+            <Link to="/hublot"
               onClick={onButtonClick}
               className="inline-flex items-center justify-center px-8 py-4 bg-black text-white hover:bg-gray-900 transition-colors"
             >
               {buttonText}
-            </button>
+            </Link>
           </div>
         </div>
       </div>
