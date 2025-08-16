@@ -1,6 +1,12 @@
-import React from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css"; 
+import { useEffect } from "react";
 
 const Luc = () => {
+     useEffect(() => {
+      AOS.init({ duration: 1000 });
+    }, []);
+
   return (
     <section className="relative w-full h-screen overflow-hidden">
       {/* Background Image */}

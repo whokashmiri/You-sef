@@ -11,48 +11,85 @@ export default function FindBoutique() {
     "Luvor",
     "Saint Louis",
     "Chopard",
-    "Azza Fahmy",
+    "AzzaFahmy",
   ];
 
   const locations = {
     Graff: {
-      Jeddah: [
-        "Red Sea Mall, King Abdulaziz Rd, Jeddah",
-        "Boulevard, Prince Saud Al Faisal St, Jeddah",
-        "Mall of Arabia, Madinah Rd, Jeddah",
-        "Le Prestige, Tahlia St, Jeddah",
-      ],
+      // Jeddah: [
+      //   "Red Sea Mall, King Abdulaziz Rd, Jeddah",
+      //   "Boulevard, Prince Saud Al Faisal St, Jeddah",
+      //   "Mall of Arabia, Madinah Rd, Jeddah",
+      //   "Le Prestige, Tahlia St, Jeddah",
+      // ],
       Riyadh: [
-        "Kingdom Centre, Olaya St, Riyadh",
-        "Panorama Mall, Takhassusi St, Riyadh",
-        "Nakheel Mall, Exit 2, Riyadh",
-        "The Zone, Takhassusi St, Riyadh",
+        "Kingdom Centre, Al Olaya, Riyadh 12213, Saudi Arabia ",
+        "Attar United Address: Al Olaya St, Al Olaya, Riyadh 12213, Saudi Arabia",
+     
       ],
-      Dammam: [
-        "Al Shatea Mall, Prince Mohammed Bin Fahd Rd, Dammam",
-        "Othaim Mall, Khaleej Rd, Dammam",
-        "West Avenue Mall, Dammam",
-        "Al Rashed Mall, Khobar",
-      ],
+      // Dammam: [
+      //   "Al Shatea Mall, Prince Mohammed Bin Fahd Rd, Dammam",
+      //   "Othaim Mall, Khaleej Rd, Dammam",
+      //   "West Avenue Mall, Dammam",
+      //   "Al Rashed Mall, Khobar",
+      // ],
     },
     Hublot: {
+      // Jeddah: [
+      //   "Red Sea Mall, King Abdulaziz Rd, Jeddah",
+      //   "Stars Avenue, King Abdulaziz Rd, Jeddah",
+      //   "Mall of Arabia, Madinah Rd, Jeddah",
+      //   "Boulevard, Prince Saud Al Faisal St, Jeddah",
+      // ],
+      Riyadh: [
+        "Kingdom Centre, Olaya St, Riyadh 12214",
+        "Panorama Mall, Takhassusi St, Riyadh",
+        "4235 Al Thoumamah Rd, Ar Rabi, Riyadhh",
+      ],
+      AlKhobar: [
+        "King Salman Bin Abdulaziz Rd, Al Yarmouk, Al Khobar 34423",
+      ],
+
+    
+    },
+    Chopard: {
       Jeddah: [
-        "Red Sea Mall, King Abdulaziz Rd, Jeddah",
-        "Stars Avenue, King Abdulaziz Rd, Jeddah",
-        "Mall of Arabia, Madinah Rd, Jeddah",
-        "Boulevard, Prince Saud Al Faisal St, Jeddah",
+        "Al Basateen Mall: Prince Mohammed Bin Abdulaziz Street, Jeddah 23",
+        "Alfardan Jewellery: Al Thaliya Street, Jeddah 21492",
+        "Al Thobaity Jewellery: Intersection of Tahlia Street and Prince Sultan St, Jeddah 21444",
+       
       ],
       Riyadh: [
-        "Kingdom Centre, Olaya St, Riyadh",
-        "Centria Mall, Olaya St, Riyadh",
-        "Panorama Mall, Takhassusi St, Riyadh",
-        "Riyadh Park Mall, Northern Ring Rd, Riyadh",
+        "Kingdom Centre Fashion Extension, Olaya Street, Riyadh 113",
+        "Panorama Mall, Tahlia Street, Riyadh 12222",
+        "King Abdul Aziz Branch Rd, As Sahafah, Riyadh 133",
+        "Alfardan Tower, Olaya Main Street, Riyadh"
       ],
-      Dammam: [
-        "Al Rashed Mall, Khobar",
-        "Dareen Mall, Dammam",
-        "Marina Mall, Dammam",
-        "Othaim Mall, Dammam",
+      AlKhobar: [
+        "Al Sheikh Avenue: King Salman Road, Khobar 34423",
+        "Alfardan Jewellery: Corniche Road, Khobar 31952"
+      ],
+    },
+    AzzaFahmy: {
+      Riyadh: [
+        "Kingdom Centre, Olaya Street, Riyadh, Saudi Arabia",
+      ],
+   
+    },
+     Luvor: {
+      Riyadh: [
+        "Kingdom Centre, Olaya Street, Riyadh, Saudi Arabia",
+      ],
+      AlKhobar: [
+        "Al Sheikh Avenue: King Salman Road, Khobar 34423",
+        "Alfardan Jewellery: Corniche Road, Khobar 31952"
+      ],
+    },
+
+     StLiuos: {
+      AlKhobar: [
+        "Al Sheikh Avenue: King Salman Road, Khobar 34423",
+        "Alfardan Jewellery: Corniche Road, Khobar 31952"
       ],
     },
   };
@@ -98,55 +135,68 @@ export default function FindBoutique() {
           )}
 
           {/* Step 2 - City Selection */}
-          {selectedBrand && !selectedCity && (
-            <div className="mt-8">
-              <h2 className="text-2xl font-semibold mb-4">
-                Choose a City for {selectedBrand}
-              </h2>
-              <div className="flex gap-4">
-                {["Jeddah", "Riyadh", "Dammam"].map((city) => (
-                  <button
-                    key={city}
-                    onClick={() => setSelectedCity(city)}
-                    className="px-6 py-3 bg-white text-black shadow-lg rounded-lg text-lg font-semibold hover:bg-gray-100 transition"
-                  >
-                    {city}
-                  </button>
-                ))}
-              </div>
-            </div>
-          )}
+          {/* Step 2 - City Selection */}
+{selectedBrand && !selectedCity && (
+  <div className="mt-8">
+    <h2 className="text-2xl font-semibold mb-4">
+      Choose a City for {selectedBrand}
+    </h2>
+    <div className="flex flex-wrap gap-4">
+      {Object.keys(locations[selectedBrand]).map((city) => (
+        <button
+          key={city}
+          onClick={() => setSelectedCity(city)}
+          className="px-6 py-3 bg-white text-black shadow-lg rounded-lg text-lg font-semibold hover:bg-gray-100 transition"
+        >
+          {city}
+        </button>
+      ))}
+    </div>
+  </div>
+)}
+
 
           {/* Step 3 - Show Addresses */}
-          {selectedBrand && selectedCity && (
-            <div className="mt-8 max-w-lg w-full bg-white text-black rounded-lg shadow-lg p-6">
-              <h3 className="text-2xl font-bold mb-4">
-                {selectedBrand} Boutiques in {selectedCity}
-              </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
-                {locations[selectedBrand][selectedCity]?.map((address, index) => (
-                  <div
-                    key={index}
-                    
-                    className="p-5 rounded-xl cursor-not-allowed bg-white shadow-lg hover:shadow-2xl border border-gray-200 hover:border-red-500 transition-all duration-300"
-                  >
-                    <p className="text-gray-600 font-semibold text-lg">{address}</p>
-                  </div>
-                ))}
-              </div>
+        {/* Step 3 - Show Addresses OR Coming Soon */}
+{selectedBrand && selectedCity && (
+  <div className="mt-8 max-w-lg w-full bg-white text-black rounded-lg shadow-lg p-6">
+    <h3 className="text-2xl font-bold mb-4">
+      {selectedBrand} Boutiques in {selectedCity}
+    </h3>
 
-              <Link
-                to="/home"
-                className="mt-6 inline-block px-9 py-3 bg-black text-white font-semibold hover:bg-gray-700 transition"
-                onClick={() => {
-                  setSelectedBrand("");
-                  setSelectedCity("");
-                }}
-              >
-                Home
-              </Link>
-            </div>
-          )}
+    {locations[selectedBrand][selectedCity] &&
+    locations[selectedBrand][selectedCity].length > 0 ? (
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+        {locations[selectedBrand][selectedCity].map((address, index) => (
+          <div
+            key={index}
+            className="p-5 rounded-xl bg-white shadow-lg hover:shadow-2xl border border-gray-200 hover:border-red-500 transition-all duration-300"
+          >
+            <p className="text-gray-600 font-semibold text-lg">{address}</p>
+          </div>
+        ))}
+      </div>
+    ) : (
+      <div className="flex items-center justify-center h-40">
+        <p className="text-black text-xl animate-pulse font-semibold">
+          Coming Soon...
+        </p>
+      </div>
+    )}
+
+    <Link
+      to="/home"
+      className="mt-6 inline-block px-9 py-3 bg-black text-white font-semibold hover:bg-gray-700 transition"
+      onClick={() => {
+        setSelectedBrand("");
+        setSelectedCity("");
+      }}
+    >
+      Home
+    </Link>
+  </div>
+)}
+
         </div>
       </div>
       <NewsletterSection />

@@ -1,8 +1,10 @@
-import React from 'react';
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import { Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css"; 
 
 const products = [
   {
@@ -50,6 +52,9 @@ const products = [
 ];
 
 const ProductCarousel2 = () => {
+    useEffect(() => {
+            AOS.init({ duration: 1000 });
+          }, []);
   const [sliderRef] = useKeenSlider({
     loop: true,
     slides: {
@@ -68,7 +73,7 @@ const ProductCarousel2 = () => {
 
   return (
     <div className="bg-black py-10 px-4 md:px-12">
-      <div ref={sliderRef} className="keen-slider">
+      <div ref={sliderRef} className="keen-slider"  data-aos="fade-up">
         {products.map((product, index) => (
           <Link to="/chopard"
             key={index}

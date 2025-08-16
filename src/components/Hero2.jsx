@@ -1,5 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css"; 
 
 const LAYOUT_COUNTS = [3, 2, 1];
 
@@ -13,6 +15,7 @@ const VIDEO_URLS = [
 ];
 
 const Hero2 = ({
+  
   cycleMs = 5000,
   heading = "Crafted for the Bold",
   subtext = "Experience visuals that move with you.",
@@ -42,6 +45,10 @@ const Hero2 = ({
     return () => clearInterval(timerRef.current);
   }, [cycleMs, count]);
 
+     useEffect(() => {
+          AOS.init({ duration: 1000 });
+        }, []);
+
   const gridCols =
     count === 3
       ? "grid-cols-1 md:grid-cols-3"
@@ -50,6 +57,7 @@ const Hero2 = ({
       : "grid-cols-1";
 
   return (
+    
     <section className="relative w-full h-screen overflow-hidden bg-black">
       {/* Videos layer (full-cover) */}
       <div className="absolute inset-0 z-0">
@@ -76,7 +84,7 @@ const Hero2 = ({
 
       {/* Text/CTA layer (on top) */}
       <div className="relative z-20 pointer-events-auto h-full flex items-center">
-        <div className="ml-auto w-full md:w-[28rem] p-4 md:p-8">
+        <div className="ml-auto w-full md:w-[28rem] p-4 md:p-8" data-aos="fade-up">
           <div className="mt-4 md:mt-8 rounded-2xl p-6 md:p-8 shadow-2xl bg-transparent">
             <p className="uppercase tracking-widest text-xs md:text-sm text-white mb-2">
               {subtext}

@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
 
 const Luvor = () => {
+   useEffect(() => {
+                  AOS.init({ duration: 1000 });
+                }, []);
   return (
     <section className="relative w-full h-screen overflow-hidden">
       {/* Background Image */}
@@ -15,7 +20,7 @@ const Luvor = () => {
       {/* <div className="absolute inset-0 bg-black bg-opacity-30 z-10"></div> */}
 
       {/* Content */}
-      <div className="relative z-20 h-full flex flex-col items-end justify-end text-center px-4 pt-16">
+      <div className="relative z-20 h-full flex flex-col items-end justify-end text-center px-4 pt-16"  data-aos="fade-left">
         <p className="text-white uppercase text-sm tracking-widest mb-2">
           New Jewelry Revealed
         </p>
