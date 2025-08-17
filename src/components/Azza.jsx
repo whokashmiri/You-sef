@@ -8,7 +8,11 @@ const Azza = () => {
                     AOS.init({ duration: 1000 });
                   }, []);
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className=" relative
+        w-full
+        h-[70vh]        /* phones */
+        overflow-hidden
+        sm:h-screen     /* tablet & above */">
       {/* Background Image */}
       <img
         src="https://azzafahmy.com/cdn/shop/files/HJ_25_landing_page-04_1.jpg?v=1737988799&width=1800" // replace with your own watch banner image

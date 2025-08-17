@@ -8,7 +8,11 @@ const Luvor = () => {
                   AOS.init({ duration: 1000 });
                 }, []);
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className=" relative
+        w-full
+        h-[70vh]        /* phones */
+        overflow-hidden
+        sm:h-screen     /* tablet & above */">
       {/* Background Image */}
       <img
         src="https://luvor.com/wp-content/uploads/2021/09/Angelo-1.jpg" // replace with your own watch banner image

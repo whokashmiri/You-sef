@@ -8,7 +8,11 @@ const Graff = () => {
                 AOS.init({ duration: 1000 });
               }, []);
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className=" relative
+        w-full
+        h-[70vh]        /* phones */
+        overflow-hidden
+        sm:h-screen     /* tablet & above */">
       {/* Background Image */}
       <img
         src="https://www.graff.com/dw/image/v2/BFNT_PRD/on/demandware.static/-/Library-Sites-GraffSharedLibrary/default/dwac22df7a/Homepage%20Images/July_25/Engagement-Rings-Homepage-1920x880px.jpg" // replace with your own watch banner image

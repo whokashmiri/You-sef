@@ -8,7 +8,11 @@ const StLiuos = () => {
                     AOS.init({ duration: 1000 });
                   }, []);
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className=" relative
+        w-full
+        h-[70vh]        /* phones */
+        overflow-hidden
+        sm:h-screen     /* tablet & above */">
       {/* Background Image */}
       <img
         src="https://www.saint-louis.com/media/Collections/SAINT_LOUIS_1598_R3.jpg" // replace with your own watch banner image

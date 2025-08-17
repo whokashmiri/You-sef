@@ -8,7 +8,11 @@ const Hoblot = () => {
               AOS.init({ duration: 1000 });
             }, []);
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className=" relative
+        w-full
+        h-[70vh]        /* phones */
+        overflow-hidden
+        sm:h-screen     /* tablet & above */">
       {/* Background Image */}
       <img
         src="https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2025-06/SUMMER-CAMPAIGN-2025---LS---09---HORIZONTAL-edited.jpg?itok=Mw3QnXe-" // replace with your own watch banner image

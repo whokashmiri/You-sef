@@ -23,7 +23,7 @@ function Autoplay(slider) {
     if (mouseOver) return;
     timeout = setTimeout(() => {
       slider.next();
-    }, 1000); // <-- move every 0.5s
+    }, 1000);
   }
   slider.on("created", () => {
     slider.container.addEventListener("mouseover", () => {
@@ -47,15 +47,18 @@ const BrandsCarousel = () => {
       loop: true,
       renderMode: "performance",
       slides: {
-        perView: 4,      // show 3 at a time
-        spacing: 16,     // gap between slides
+        perView: 4,
+        spacing: 16,
       },
       breakpoints: {
+        "(max-width: 1024px)": {
+          slides: { perView: 3, spacing: 12 },
+        },
         "(max-width: 768px)": {
-          slides: { perView: 2, spacing: 12 },
+          slides: { perView: 2, spacing: 10 },
         },
         "(max-width: 480px)": {
-          slides: { perView: 1.5, spacing: 8 },
+          slides: { perView: 1, spacing: 8 },
         },
       },
     },
