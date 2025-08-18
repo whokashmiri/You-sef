@@ -67,14 +67,14 @@ export default function ItemDetails() {
           <p className="text-gray-300 mb-6">{item.description}</p>
 
           {/* Availability */}
-          <div className="mb-4">
+          {/* <div className="mb-4">
             <label className="block font-medium text-white mb-2">Boutique</label>
             <select className="border px-5 py-3 w-full text-white bg-black">
               <option >Jeddah</option>
               <option>Riyadh</option>
               <option>Dammam</option>
             </select>
-          </div>
+          </div> */}
 
          <div className="mb-4">
       {/* <label className="block font-medium mb-2">Make An Appointment</label> */}
@@ -82,7 +82,7 @@ export default function ItemDetails() {
         onClick={() => navigate("/appointment")}
         className="border  px-5 py-4 w-full bg-red-800 text-white hover:bg-red-700 transition"
       >
-        Make An Appointment
+        Book in a Boutique and Delivery
       </button>
     </div>
 

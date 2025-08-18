@@ -9,7 +9,7 @@ export default function FindBoutique() {
     "Graff",
     "Hublot",
     "Luvor",
-    "Saint Louis",
+    "SaintLouis",
     "Chopard",
     "AzzaFahmy",
   ];
@@ -86,7 +86,7 @@ export default function FindBoutique() {
       ],
     },
 
-     StLiuos: {
+     SaintLouis: {
       AlKhobar: [
         "Al Sheikh Avenue: King Salman Road, Khobar 34423",
         "Alfardan Jewellery: Corniche Road, Khobar 31952"
