@@ -5,7 +5,7 @@ import "keen-slider/keen-slider.min.css";
 const BRAND_LOGOS = [
   "https://logos-world.net/wp-content/uploads/2024/10/Chopard-Logo.png",
   "https://logos-world.net/wp-content/uploads/2020/11/Hublot-Logo-700x394.png",
-  "https://cdn.brandfetch.io/id7yvOb0kK/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B",
+  // "https://cdn.brandfetch.io/id7yvOb0kK/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B",
   "https://luvor.com/wp-content/uploads//2020/10/Luvor-B-Logo-1.svg",
   "https://cdn.brandfetch.io/id4CB7EiAA/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B",
   "https://cdn.brandfetch.io/idJhPZ5W91/w/5760/h/1106/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",

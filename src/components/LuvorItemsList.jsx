@@ -5,80 +5,79 @@ import { Link } from "react-router-dom";
 const items = [
   {
     id: 1,
-    title: "NAIF",
-    description: "OutLined by Chromatic Contrasts",
+    title: "Gerald Charles",
+    description: "Maestro GC Sport Tennis Grass Green Color LIMITED EDITION 200 PIECES NEW UNWORN FULL SET",
     images: [
-      "https://luvor.com/wp-content/uploads/2020/11/Naif-4.jpg",
-      "https://luvor.com/wp-content/uploads/2020/11/Naif-8-2.jpg",
-      "https://www.saint-louis.com/media/catalog/product/cache/e1648193c4bd079fe5e6c9e530413384/1/5/15008000-4.jpg"
+      "https://img.chrono24.com/images/uhren/41002430-0d2vl6y4k8j9hob9uf6midia-ExtraLarge.jpg",
+      "https://img.chrono24.com/images/uhren/41002430-bzpqg3116sj4sfs1znsjuetd-ExtraLarge.jpg",
     ]
   },
   {
     id: 2,
-    title: "angelo",
-    description: "designs inspired by Nature. ",
+    title: "Gerald Charles",
+    description: "Maestro GC39 25th Anniversary Edition",
     images: [
-"https://luvor.com/wp-content/uploads/2020/11/Angelo-10.jpg",
-"https://luvor.com/wp-content/uploads/2020/11/Angelo-10.jpg" ]
+"https://img.chrono24.com/images/uhren/41157251-1sisa1ao3gp0bmf680py969x-ExtraLarge.jpg",
+"https://img.chrono24.com/images/uhren/41157251-es9px16u66diq69p8mrypnaz-ExtraLarge.jpg" ]
   },
    {
     id: 3,
-    title: "Fontana de Trevi",
-    description: "A kaleidoscope of Asian tradition",
+    title: "Gerald Charles",
+    description: " Gerald Charles Maestro GC2.0 Ultra-Thin UP Ugo Piccini",
     images: [
-      "https://luvor.com/wp-content/uploads/2020/11/Fontana-09.jpg",
-      "https://luvor.com/wp-content/uploads/2020/11/Fontana-10.jpg)"
+      "https://img.chrono24.com/images/uhren/d8oy1uriusqc-eoiklpxnb5hii7v74vb42u05-ExtraLarge.jpg",
+      "https://img.chrono24.com/images/uhren/gfu02xn292nw-431abfq5rb3bwaodj2toxw3s-ExtraLarge.jpg"
     ]
   }
   ,
    {
     id: 4,
-    title: "Mandela",
-    description: " A kaleidoscope of Asian tradition and Buddhist philosophy blossoming with colors.  ",
+    title: "Gerald Charles",
+    description: " Fine & Mint Automatic Maestro 3.0 Chronograph Green",
     images: [
-      "https://luvor.com/wp-content/uploads/2020/11/Mandala-15.jpg",
-    "https://luvor.com/wp-content/uploads/2020/11/Mandala-16.jpg",
+      "https://img.chrono24.com/images/uhren/37995595-izc5xfbp2svsmqos5l3z9y1x-ExtraLarge.jpg",
+    "https://img.chrono24.com/images/uhren/37995595-29u0l64o4ewzr8tkzcyyb5v3-ExtraLarge.jpg",
 
     ]
   }
   ,
    {
     id: 5,
-    title: "pirouette",
-    description: "nature, particularly the free-flowing movement of leaves.",
+    title: "Gerald Charles",
+    description: "Maestro 2.0 Ultra-Thin",
     images: [
-      "https://luvor.com/wp-content/uploads/2020/11/PIROUETTE-4-scaled-1.jpg",
-      "https://luvor.com/wp-content/uploads/2020/11/PIROUETTE-3-scaled-1.jpg"
+      "https://img.chrono24.com/images/uhren/40897887-cr18fbz4mwc13peb9b5kpr5a-ExtraLarge.jpg",
+      "https://img.chrono24.com/images/uhren/40897887-q8cqvkhtcvwgzahk90bsboir-ExtraLarge.jpg"
     ]
   }
   ,
    {
     id: 6,
-    title: "sonora",
-    description: " PIECES OF YOUR DREAMS",
+    title: "Gerald Charles",
+    description: " GC2.0-TX-TNSB-24GR-RSVC",
     images: [
-      "https://luvor.com/wp-content/uploads/2020/11/sonora7-scaled-1.jpg",
-      "https://luvor.com/wp-content/uploads/2020/11/sonora6-scaled-1.jpg"
+      "https://img.chrono24.com/images/uhren/41157493-gafr2h6n5vhk9t8rrkjax75j-ExtraLarge.jpg",
+      "https://img.chrono24.com/images/uhren/41157493-3st9eii43yd2wnq5w478ye0c-ExtraLarge.jpg"
     ]
   }
   ,
    {
     id: 7,
-    title: "vittoria",
-    description: " naturally reflects the woman’s emotions, passions & her desires.",
+    title: "Gerald Charles",
+    description: " Maestro 2.0 Ultra-thin Green Dial",
     images: [
-      "https://luvor.com/wp-content/uploads/2020/11/Vittoria-09.jpg",
-      "https://luvor.com/wp-content/uploads/2020/11/Vittoria-08.jpg"
+      "https://img.chrono24.com/images/uhren/39174518-ttshctlxso4kjazyabfi3jgy-ExtraLarge.jpg",
+      "https://img.chrono24.com/images/uhren/39174518-xjh9015n2em1752b45bp4pdj-ExtraLarge.jpg"
     ]
   }
   ,
    {
     id: 8,
-    title: "molecole",
-    description: "linear and essential design embellished with drops of diamonds",
+    title: "Gerald Charles",
+    description: "Maestro 8.0 Squelette / unworn / NEW / Full Set / Steel / 2024",
     images: [
-      "https://luvor.com/wp-content/uploads/2021/09/MOL-8.jpg",
-      "https://luvor.com/wp-content/uploads/2021/09/MOL-10.jpg"
+      "https://img.chrono24.com/images/uhren/35480382-q89c9uouhindq5lbkpvobymy-ExtraLarge.jpg",
+      "https://img.chrono24.com/images/uhren/35480382-m0bzyux143xibcba8g6hggqz-ExtraLarge.jpg"
     ]
   }
   

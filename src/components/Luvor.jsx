@@ -15,7 +15,7 @@ const Luvor = () => {
         sm:h-screen     /* tablet & above */">
       {/* Background Image */}
       <img
-        src="https://luvor.com/wp-content/uploads/2021/09/Angelo-1.jpg" // replace with your own watch banner image
+        src="https://behold.pictures/tbuuCosyw2SLQ0oHxN43jArxV3l2/uLwwvxXX30QpR4NmqrF6/18009126412766333/medium.webp" // replace with your own watch banner image
         alt="Luvor"
         className="absolute w-full h-full object-cover"
       />
@@ -26,10 +26,10 @@ const Luvor = () => {
       {/* Content */}
       <div className="relative z-20 h-full flex flex-col items-end justify-end text-center px-4 pt-16"  data-aos="fade-left">
         <p className="text-white uppercase text-sm tracking-widest mb-2">
-          New Jewelry Revealed
+          Timeless Time Pieces
         </p>
         <h1 className="text-white uppercase text-4xl md:text-6xl font-light mb-6">
-          Luvor 2025
+          Gerald Charles 2025
         </h1>
         <Link to="/luvor" className="px-6 py-3 bg-slate-600 bg-opacity-20 backdrop-blur-md text-white text-sm uppercase tracking-widest hover:bg-gray-700 transition">
           Discover the Collection

@@ -12,6 +12,7 @@ const menuConfig = {
     children: [
       { label: "Hublot", to: "/hublot" },
       { label: "Graff", to: "/graff" },
+       { label: "Gerald Charles", to: "/gerald" },
       { label: "Chopard", to: "/chopard" },
       // { label: "Patek Philippe", to: "/watches/patek-philippe" },
       // { label: "Audemars Piguet", to: "/watches/audemars-piguet" },
@@ -24,7 +25,7 @@ const menuConfig = {
       { label: "Chopard", to: "/choprdjewelry" },
       { label: "Azza Fahmy", to: "/azza" },
       { label: "Graff", to: "/graffjewelry" },
-      { label: "Luvor", to: "/luvor" },
+     
       { label: "Saint Louis", to: "/st" },
       // { label: "Sets", to: "/jewelry/sets" },
     ],
@@ -100,13 +101,21 @@ const Header = () => {
       />
 
       {/* Foreground */}
-      <div className={`relative ${textColorClass}`}>
+      {/* Foreground */}
+<div
+  className={`
+    relative ${textColorClass}
+    transition-opacity duration-300
+    ${showWhiteBg ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}
+  `}
+>
         <div className="flex items-center justify-between px-6 md:px-12 py-4">
           {/* Left */}
           <div className="hidden md:flex items-center gap-6 text-sm">
-            <span className="cursor-pointer">🌐</span>
+            
             <Link to="/contact" className="cursor-pointer">Contact Us</Link>
             <Link to="/find" className="cursor-pointer">Boutique</Link>
+            <button className="cursor-pointer">Our Brand</button>
           </div>
 
           {/* Logo */}
@@ -116,10 +125,10 @@ const Header = () => {
 
           {/* Right */}
           <div className="flex items-center gap-4">
-            <div className="hidden md:flex gap-4">
+            {/* <div className="hidden md:flex gap-4">
               <User className="w-5 h-5 cursor-pointer" />
               <ShoppingCart className="w-5 h-5 cursor-pointer" />
-            </div>
+            </div> */}
             <button
               className="md:hidden"
               onClick={() => setMenuOpen((prev) => !prev)}
@@ -130,7 +139,13 @@ const Header = () => {
         </div>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex justify-center gap-10 uppercase tracking-widest text-sm py-2 relative">
+        <nav
+  className={`
+    hidden md:flex justify-center gap-10 uppercase tracking-widest text-sm py-2 relative
+    transition-opacity duration-300
+    ${showWhiteBg ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}
+  `}
+>
           {topLinks.map((label) => {
             const cfg = menuConfig[label];
             const hasChildren = !!cfg?.children?.length;

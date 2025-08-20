@@ -8,7 +8,7 @@ export default function FindBoutique() {
   const brands = [
     "Graff",
     "Hublot",
-    "Luvor",
+    "GeraldCharles",
     "SaintLouis",
     "Chopard",
     "AzzaFahmy",
@@ -24,7 +24,7 @@ export default function FindBoutique() {
       // ],
       Riyadh: [
         "Kingdom Centre, Al Olaya, Riyadh 12213, Saudi Arabia ",
-        "Attar United Address: Al Olaya St, Al Olaya, Riyadh 12213, Saudi Arabia",
+        "Saint Louis, Al Olaya, Riyadh 12213, Saudi Arabia",
      
       ],
       // Dammam: [
@@ -43,8 +43,8 @@ export default function FindBoutique() {
       // ],
       Riyadh: [
         "Kingdom Centre, Olaya St, Riyadh 12214",
-        "Panorama Mall, Takhassusi St, Riyadh",
-        "4235 Al Thoumamah Rd, Ar Rabi, Riyadhh",
+        "Panorama Mall, Takhassusi St, Riyadh 12214",
+        // "4235 Al Thoumamah Rd, Ar Rabi, Riyadhh",
       ],
       AlKhobar: [
         "King Salman Bin Abdulaziz Rd, Al Yarmouk, Al Khobar 34423",
@@ -52,44 +52,46 @@ export default function FindBoutique() {
 
     
     },
+    GeraldCharles:{
+       Riyadh: [
+        "Tahlia st intersection with Olaya street, Olaya Towers, Unit # 10 Riyadh 12213, Saudi Arabia",
+        // "4235 Al Thoumamah Rd, Ar Rabi, Riyadhh",
+      ],
+      // AlKhobar: [
+      //   "King Salman Bin Abdulaziz Rd, Al Yarmouk, Al Khobar 34423",
+      // ],
+
+    },
     Chopard: {
       Jeddah: [
         "Al Basateen Mall: Prince Mohammed Bin Abdulaziz Street, Jeddah 23",
-        "Alfardan Jewellery: Al Thaliya Street, Jeddah 21492",
-        "Al Thobaity Jewellery: Intersection of Tahlia Street and Prince Sultan St, Jeddah 21444",
+        // "Alfardan Jewellery: Al Thaliya Street, Jeddah 21492",
+        // "Al Thobaity Jewellery: Intersection of Tahlia Street and Prince Sultan St, Jeddah 21444",
        
       ],
       Riyadh: [
         "Kingdom Centre Fashion Extension, Olaya Street, Riyadh 113",
         "Panorama Mall, Tahlia Street, Riyadh 12222",
-        "King Abdul Aziz Branch Rd, As Sahafah, Riyadh 133",
-        "Alfardan Tower, Olaya Main Street, Riyadh"
+        // "King Abdul Aziz Branch Rd, As Sahafah, Riyadh 133",
+        // "Alfardan Tower, Olaya Main Street, Riyadh"
       ],
       AlKhobar: [
         "Al Sheikh Avenue: King Salman Road, Khobar 34423",
-        "Alfardan Jewellery: Corniche Road, Khobar 31952"
+        // "Alfardan Jewellery: Corniche Road, Khobar 31952"
       ],
     },
     AzzaFahmy: {
       Riyadh: [
-        "Kingdom Centre, Olaya Street, Riyadh, Saudi Arabia",
+        "Kingdom Centre, Olaya Street, Riyadh, Saudi Arabia, 12213",
+        
       ],
    
     },
-     Luvor: {
-      Riyadh: [
-        "Kingdom Centre, Olaya Street, Riyadh, Saudi Arabia",
-      ],
-      AlKhobar: [
-        "Al Sheikh Avenue: King Salman Road, Khobar 34423",
-        "Alfardan Jewellery: Corniche Road, Khobar 31952"
-      ],
-    },
 
      SaintLouis: {
-      AlKhobar: [
-        "Al Sheikh Avenue: King Salman Road, Khobar 34423",
-        "Alfardan Jewellery: Corniche Road, Khobar 31952"
+      Riyadh: [
+        "Saint Louis , Al Olaya Tower, Riyadh , 12213",
+        // "Alfardan Jewellery: Corniche Road, Khobar 31952"
       ],
     },
   };
@@ -109,7 +111,7 @@ export default function FindBoutique() {
           muted
           playsInline
         >
-          <source src="https://videos.pexels.com/video-files/9607084/9607084-hd_1920_1080_30fps.mp4" type="video/mp4" />
+          <source src="https://videos.pexels.com/video-files/4607633/4607633-hd_1920_1080_30fps.mp4" type="video/mp4" />
         </video>
 
         {/* Overlay to darken video */}
@@ -134,8 +136,7 @@ export default function FindBoutique() {
             </div>
           )}
 
-          {/* Step 2 - City Selection */}
-          {/* Step 2 - City Selection */}
+   {/* Step 2 - City Selection */}
 {selectedBrand && !selectedCity && (
   <div className="mt-8">
     <h2 className="text-2xl font-semibold mb-4">
@@ -152,12 +153,19 @@ export default function FindBoutique() {
         </button>
       ))}
     </div>
+
+    {/* Back to brand selection */}
+    <button
+      className="mt-6 px-6 py-3 bg-black text-white  hover:bg-gray-700 transition"
+      onClick={() => setSelectedBrand("")}
+    >
+      ← 
+    </button>
   </div>
 )}
 
 
-          {/* Step 3 - Show Addresses */}
-        {/* Step 3 - Show Addresses OR Coming Soon */}
+ {/* Step 3 - Show Addresses or Coming Soon */}
 {selectedBrand && selectedCity && (
   <div className="mt-8 max-w-lg w-full bg-white text-black rounded-lg shadow-lg p-6">
     <h3 className="text-2xl font-bold mb-4">
@@ -183,6 +191,14 @@ export default function FindBoutique() {
         </p>
       </div>
     )}
+
+    {/* Back to city selection */}
+    <button
+      onClick={() => setSelectedCity("")}
+      className="mt-6 mr-4 px-8 py-3 bg-gray-200 text-black  hover:bg-gray-300 transition"
+    >
+      ←
+    </button>
 
     <Link
       to="/home"

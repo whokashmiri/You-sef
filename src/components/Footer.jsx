@@ -50,7 +50,7 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mt-8">
         {/* Contact */}
         <div>
-          <h4 className="text-white font-semibold mb-3 uppercase">Contact</h4>
+          <h3 className="text-white font-semibold mb-3 uppercase">Contact</h3>
           <ul className="space-y-2 text-gray-300">
             <Link to="/contact" className="flex items-center gap-2">
               <Mail size={14} /> Contact Us
@@ -66,7 +66,7 @@ const Footer = () => {
 
         {/* Services */}
         <div>
-          <h4 className="text-white font-semibold mb-3 uppercase">Services</h4>
+          <h3 className="text-white font-semibold mb-3 uppercase">Services</h3>
           <ul className="space-y-2 text-gray-300">
             <li>Track Your Order</li>
             <li>Make a Return</li>
@@ -98,7 +98,7 @@ const Footer = () => {
 
         {/* Stay Up to Date */}
         <div className="md:col-span-2">
-          <h4 className="text-white font-semibold mb-3 uppercase">Stay Up to Date</h4>
+          <h3 className="text-white font-semibold mb-3 uppercase">Stay Up to Date</h3>
           <div className="flex gap-4 mb-4">
             <a href="#"><Facebook size={18} /></a>
             <a href="#"><Instagram size={18} /></a>

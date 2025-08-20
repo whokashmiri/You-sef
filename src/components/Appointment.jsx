@@ -7,11 +7,10 @@ import NewsletterSection from "./NewsletterSection";
 
 export default function Appointment() {
   const cities = [
-    "Riyadh", "Jeddah", "Dammam", "Khobar", "Mecca", "Medina",
-    "Abha", "Tabuk", "Jizan", "Hail"
+    "Riyadh", "Jeddah", "AlKhobar", "Mekkah"
   ];
 
-  const brands = ["Graff", "Hublot", "Azza Fahmy", "Luvor", "Saint Louis", "Chopard"];
+  const brands = ["Graff", "Hublot", "Azza Fahmy", "Gerald Charles", "Saint Louis", "Chopard"];
 
   const locations = {
     Graff: {
@@ -93,7 +92,7 @@ export default function Appointment() {
       <Header />
       <div className="relative min-h-screen  w-full overflow-hidden">
         <video autoPlay loop muted className="absolute top-0 left-0 w-full h-full object-cover">
-          <source src="https://videos.pexels.com/video-files/19348570/19348570-uhd_2560_1440_30fps.mp4" type="video/mp4" />
+          <source src="https://videos.pexels.com/video-files/8331939/8331939-uhd_2732_1440_25fps.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/30"></div>
 
@@ -188,9 +187,10 @@ export default function Appointment() {
               </div>
 
               <div className="text-center">
+                <p>Thank You! We well contact you soon</p>
                 <button
                   type="submit"
-                  className="bg-red-800 hover:bg-red-700 transition px-8 py-3  font-semibold text-lg transition"
+                  className="bg-red-800 hover:bg-red-700 px-8 py-3  font-semibold text-lg transition"
                 >
                   Submit Appointment
                 </button>

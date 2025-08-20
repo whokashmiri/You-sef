@@ -16,7 +16,7 @@ const HeroLu = () => {
         className="absolute w-full h-full object-cover"
       >
         <source
-          src="https://luvor.com/wp-content/uploads/2024/01/luvor_hero_video.mp4"
+          src="https://cdn.shopify.com/videos/c/o/v/5030c556508349309a97a66a13fefa2d.mp4"
           type="video/mp4"
         />
       </video>
@@ -27,10 +27,10 @@ const HeroLu = () => {
     <div className="relative z-20 flex flex-col items-center justify-end h-full text-center px-4 pb-16">
 
         <p className="text-white uppercase tracking-widest text-sm md:text-base">
-        PREMIUM HOME DECOR
+        new time pieces revealed
         </p>
         <h1 className="text-white text-4xl md:text-6xl font-light mt-4">
-         Saint-Louis
+         Gerald Charles
         </h1>
          <button className="mt-6 px-6 py-3 bg-white text-black text-sm font-semibold tracking-wide uppercase hover:bg-gray-200 transition flex items-center gap-2">
   Discover the Collection

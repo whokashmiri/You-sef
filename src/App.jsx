@@ -39,7 +39,7 @@ function App() {
         <Route path="/graffjewelry" element={<GraffJewelry/>} />
         <Route path="/about" element={<AboutUs/>} />
         <Route path="/st" element={<StLiuosShowPage/>} />
-        <Route path="/luvor" element={<LuvorShowPage/>} />
+        <Route path="/gerald" element={<LuvorShowPage/>} />
         <Route path="/find" element={<FindBoutique/>} />
         <Route path="/appointment" element={<Appointment/>} />
 

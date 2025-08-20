@@ -1,9 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pinyon+Script&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');@import "tailwindcss";
 
 .font-signature , h1  , h3 ,h2 ,a , label, button, option{
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 body{
   background:black;
+}
+h4{
+  font-family: "Pinyon Script", cursive;
+}
+
+
+h5{
+   font-family: "Inter", sans-serif;
 }

@@ -13,9 +13,9 @@ const NewsletterSection = () => {
   return (
     <section className="bg-black text-white py-16 px-4">
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-2xl md:text-4xl font-light uppercase mb-8">
+        <h5 className="text-2xl md:text-4xl font-light  mb-8">
           Subscribe to Our Newsletter
-        </h2>
+        </h5>
 
         {/* Form */}
         <form
