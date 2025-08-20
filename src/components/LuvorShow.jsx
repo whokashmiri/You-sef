@@ -75,7 +75,7 @@ const LuvorShow = () => {
     <div className="bg-black py-10 px-4 md:px-12">
       <div ref={sliderRef} className="keen-slider"  data-aos="fade-up">
         {products.map((product, index) => (
-          <Link to="/luvor"
+          <Link to="/gerald"
             key={index}
             className="keen-slider__slide bg-[#121212] p-4 flex flex-col justify-between relative group transition-all duration-300 hover:scale-105"
           >

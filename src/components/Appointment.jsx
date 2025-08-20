@@ -187,7 +187,7 @@ export default function Appointment() {
               </div>
 
               <div className="text-center">
-                <p>Thank You! We well contact you soon</p>
+                <p>Thank You! Our Client Advisor Will Contact You Soon</p>
                 <button
                   type="submit"
                   className="bg-red-800 hover:bg-red-700 px-8 py-3  font-semibold text-lg transition"

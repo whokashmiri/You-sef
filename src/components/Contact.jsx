@@ -125,7 +125,7 @@ export default function ContactUs() {
           className="w-full mb-6  border  px-5 py-4 text-white focus:outline-none focus:ring-2 focus:ring-black resize-none"
         />
 
-                <p className="text-white">Thank You! We well contact you soon</p>
+                <p className="text-white">Thank You! Our Client Advisor Will Contact You Soon</p>
 
         <button
           type="submit"

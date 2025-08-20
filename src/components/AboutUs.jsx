@@ -34,7 +34,7 @@ export default function AboutUs() {
             About <span className="text-yellow-500">AU Beta Arabia</span>
           </motion.h1>
 
-          <motion.h4
+          <motion.h5
             initial={{ y: 80, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.6 }}
@@ -46,18 +46,18 @@ export default function AboutUs() {
             timeless design. We partner exclusively with the world’s most
             prestigious brands such as Graff, Hublot, and Luvor to bring you
             unmatched craftsmanship and heritage.
-          </motion.h4>
+          </motion.h5>
 
           {/* Image Grid */}
           <div className="grid md:grid-cols-3 gap-2 mb-10">
             {[
-              "https://logos-world.net/wp-content/uploads/2024/10/Chopard-Logo.png",
-  "https://logos-world.net/wp-content/uploads/2020/11/Hublot-Logo-700x394.png",
+              "https://www.attarunited.com/wp-content/uploads/2020/03/lgr.jpg",
+  "https://www.attarunited.com/wp-content/uploads/2025/01/new_hublot_dark_logo.jpg",
   // "https://cdn.brandfetch.io/id7yvOb0kK/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B",
-  "https://luvor.com/wp-content/uploads//2020/10/Luvor-B-Logo-1.svg",
-  "https://cdn.brandfetch.io/id4CB7EiAA/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B",
-  "https://cdn.brandfetch.io/idJhPZ5W91/w/5760/h/1106/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
-  "https://cdn.brandfetch.io/idJEv2DDUJ/w/180/h/180/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B"
+  "https://www.attarunited.com/wp-content/uploads/2020/11/gf-1.jpg",
+  "https://www.attarunited.com/wp-content/uploads/2024/08/LOGO05.jpg",
+  "https://www.attarunited.com/wp-content/uploads/2024/08/LOGO04-3.jpg",
+  "https://www.attarunited.com/wp-content/uploads/2024/08/llg.jpg"
             ].map((img, i) => (
               <motion.div
                 key={i}
@@ -69,7 +69,7 @@ export default function AboutUs() {
                 <img
                   src={img}
                   alt="Luxury item"
-                    className="w-full h-40 object-contain transform hover:scale-105 transition duration-700 filter invert brightness-0.5"
+                    className="w-full h-40 object-contain transform hover:scale-105 transition duration-700 filter invert brightness-0.7"
 
                 />
               </motion.div>
@@ -93,12 +93,12 @@ export default function AboutUs() {
               <h2 className="text-3xl font-bold">
                 Craftsmanship Beyond Time
               </h2>
-              <h4 className="text-3xl text-white">
+              <h5 className="text-3xl text-white">
                 Every piece in our collection reflects the dedication of master
                 artisans who blend tradition with modern innovation. From the
                 delicate placement of diamonds to the intricate engineering of
                 Swiss movements, each creation is a masterpiece.
-              </h4>
+              </h5>
             </div>
           </div>
         </div>
