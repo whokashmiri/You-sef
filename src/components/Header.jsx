@@ -115,7 +115,7 @@ const Header = () => {
             
             <Link to="/contact" className="cursor-pointer">Contact Us</Link>
             <Link to="/find" className="cursor-pointer">Boutique</Link>
-            <button className="cursor-pointer">Our Brand</button>
+            <Link to="/ourbrands" className="cursor-pointer">Our Brand</Link>
           </div>
 
           {/* Logo */}
