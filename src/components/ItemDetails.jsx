@@ -73,6 +73,7 @@ export default function ItemDetails() {
               <option >Jeddah</option>
               <option>Riyadh</option>
               <option>Al Khobar</option>
+               <option>Makkah</option>
             </select>
           </div>
 

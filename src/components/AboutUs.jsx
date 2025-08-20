@@ -59,20 +59,20 @@ export default function AboutUs() {
   "https://www.attarunited.com/wp-content/uploads/2024/08/LOGO04-3.jpg",
   "https://www.attarunited.com/wp-content/uploads/2024/08/llg.jpg"
             ].map((img, i) => (
-              <motion.div
-                key={i}
-                initial={{ scale: 0.9, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                transition={{ delay: 0.3 + i * 0.2, duration: 0.6 }}
-                className="overflow-hidden rounded-2xl shadow-lg"
-              >
-                <img
-                  src={img}
-                  alt="Luxury item"
-                    className="w-full h-40 object-contain transform hover:scale-105 transition duration-700 filter invert brightness-0.7"
+           <motion.div
+  key={i}
+  initial={{ scale: 0.9, opacity: 0 }}
+  animate={{ scale: 1, opacity: 1 }}
+  transition={{ delay: 0.3 + i * 0.2, duration: 0.2 }}
+  className="overflow-hidden rounded-2xl shadow-lg bg-white flex items-center justify-center"
+>
+  <img
+    src={img}
+    alt="Luxury item"
+    className="w-full h-40 object-contain scale-110 transform hover:scale-105 transition duration-700"
+  />
+</motion.div>
 
-                />
-              </motion.div>
             ))}
           </div>
 

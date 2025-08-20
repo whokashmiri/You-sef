@@ -73,7 +73,7 @@ export default function FindBoutique() {
           playsInline
         >
           <source
-            src="https://videos.pexels.com/video-files/19376556/19376556-uhd_2560_1440_25fps.mp4"
+            src="https://videos.pexels.com/video-files/4004214/4004214-hd_1920_1080_25fps.mp4"
             type="video/mp4"
           />
         </video>
@@ -182,7 +182,10 @@ export default function FindBoutique() {
               </Link>
             </div>
           )}
+                        <Link to="home" className="text-black mt-4 p-3 bg-white">Back</Link>
+
         </div>
+
       </div>
       <NewsletterSection />
       <Footer />

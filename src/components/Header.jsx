@@ -75,6 +75,7 @@ const Header = () => {
       window.removeEventListener('scroll', onScroll);
       clearIdle();
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const textColorClass = showWhiteBg ? 'text-black' : 'text-white';
