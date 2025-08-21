@@ -15,8 +15,8 @@ const Luvor = () => {
         sm:h-screen     /* tablet & above */">
       {/* Background Image */}
       <img
-        src="https://behold.pictures/tbuuCosyw2SLQ0oHxN43jArxV3l2/uLwwvxXX30QpR4NmqrF6/18009126412766333/medium.webp" // replace with your own watch banner image
-        alt="Luvor"
+        src="https://a.storyblok.com/f/275463/3024x2160/92b15914a3/movement_7-5.jpg/m/smart/filters:format(webp)" // replace with your own watch banner image
+        alt="Gerald Charles"
         className="absolute w-full h-full object-cover"
       />
 
