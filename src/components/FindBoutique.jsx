@@ -74,7 +74,7 @@ export default function FindBoutique() {
           playsInline
         >
           <source
-            src="https://videos.pexels.com/video-files/4004214/4004214-hd_1920_1080_25fps.mp4"
+            src="https://videos.pexels.com/video-files/31415845/13402254_1440_2560_30fps.mp4"
             type="video/mp4"
           />
         </video>
@@ -100,7 +100,7 @@ export default function FindBoutique() {
               ))}
             </div>
           )}
-  
+
 
 
           {/* Step 2 - City Selection */}
@@ -139,7 +139,7 @@ export default function FindBoutique() {
               </h3>
 
               {locations[selectedBrand][selectedCity] &&
-              locations[selectedBrand][selectedCity].length > 0 ? (
+                locations[selectedBrand][selectedCity].length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
                   {locations[selectedBrand][selectedCity].map(
                     (address, index) => (
@@ -175,7 +175,7 @@ export default function FindBoutique() {
                 ← Back
               </button>
 
-              <Link
+              {/* <Link
                 to="/home"
                 className="mt-6 inline-block px-9 py-3 bg-black text-white font-semibold hover:bg-gray-700 transition"
                 onClick={() => {
@@ -184,16 +184,16 @@ export default function FindBoutique() {
                 }}
               >
                 Home
-              </Link>
+              </Link> */}
             </div>
           )}
 
-                 <div className="w-full flex  justify-start mt-16">
-  <Link to="home" className="p-3 bg-white text-black flex  rounded-lg shadow-md hover:bg-gray-100 transition">
-  <HomeIcon/> <span className="ml-2">Home</span> 
-  </Link>
-</div>
-                        
+          <div className="w-full flex  justify-start mt-16">
+            <Link to="home" className="p-3 bg-white text-black flex  rounded-lg shadow-md hover:bg-gray-100 transition">
+              <HomeIcon /> <span className="ml-2">Home</span>
+            </Link>
+          </div>
+
 
         </div>
       </div>
