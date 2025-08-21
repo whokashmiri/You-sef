@@ -3,6 +3,7 @@ import NewsletterSection from "./NewsletterSection";
 import Footer from "./Footer";
 import Header from "./Header";
 import { Link } from "react-router-dom";
+import { HomeIcon } from "lucide-react";
 
 export default function FindBoutique() {
   const brands = [
@@ -99,6 +100,8 @@ export default function FindBoutique() {
               ))}
             </div>
           )}
+  
+
 
           {/* Step 2 - City Selection */}
           {selectedBrand && !selectedCity && (
@@ -162,6 +165,8 @@ export default function FindBoutique() {
                 </div>
               )}
 
+
+
               {/* Back to city selection */}
               <button
                 onClick={() => setSelectedCity("")}
@@ -182,11 +187,17 @@ export default function FindBoutique() {
               </Link>
             </div>
           )}
-                        <Link to="home" className="text-black mt-4 p-3 bg-white">Back</Link>
+
+                 <div className="w-full flex  justify-start mt-16">
+  <Link to="home" className="p-3 bg-white text-black flex  rounded-lg shadow-md hover:bg-gray-100 transition">
+  <HomeIcon/> <span className="ml-2">Home</span> 
+  </Link>
+</div>
+                        
 
         </div>
-
       </div>
+
       <NewsletterSection />
       <Footer />
     </>
