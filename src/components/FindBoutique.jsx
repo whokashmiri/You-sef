@@ -74,7 +74,7 @@ export default function FindBoutique() {
           playsInline
         >
           <source
-            src="https://videos.pexels.com/video-files/31415845/13402254_1440_2560_30fps.mp4"
+            src="https://a.storyblok.com/f/275463/x/ba35217f5a/gc-atelier-is.mp4"
             type="video/mp4"
           />
         </video>
