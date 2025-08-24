@@ -26,10 +26,14 @@ export default function FindBoutique() {
       Riyadh: [
         "Kingdom Centre, Olaya St, Riyadh , Tel: (011) 2111391",
         "Panorama Mall, Tahlia Street, Riyadh , Tel: (011) 4821360",
-        "Solitaire Mall, As Sahafah distrcit, King Abdulaziz Road , Tel: (011) 5157266"
+        "Solitaire Mall, As Sahafah distrcit, King Abdulaziz Road , Tel: (011) 5157266",
       ],
-      AlKhobar: ["Al-Sheikh Avenue, King Salman Bin Abdulaziz Rd Al Khobar,  Tel: (013) 8021337"],
-      Jeddah: ["21553 El Khayyat Center, Tahlia Street, Al Andalus , jeddah,  , Tel: (012) 6774125"],
+      AlKhobar: [
+        "Al-Sheikh Avenue, King Salman Bin Abdulaziz Rd Al Khobar,  Tel: (013) 8021337",
+      ],
+      Jeddah: [
+        "21553 El Khayyat Center, Tahlia Street, Al Andalus , jeddah,  , Tel: (012) 6774125",
+      ],
     },
     GeraldCharles: {
       Riyadh: [
@@ -44,9 +48,10 @@ export default function FindBoutique() {
         "Kingdom Centre, Olaya Street, Riyadh , Tel: (011) 2110017",
         "Panorama Mall, Tahlia Street, Riyadh , Tel: (011) 2815300",
         "Solitaire Mall, As Sahafah distrcit, King Abdulaziz Road , Tel: (011) 5157299",
-
       ],
-      AlKhobar: ["Al Sheikh Avenue, King Salman Road, Al-Khobar , Tel: (013) 8022882"],
+      AlKhobar: [
+        "Al Sheikh Avenue, King Salman Road, Al-Khobar , Tel: (013) 8022882",
+      ],
     },
     AzzaFahmy: {
       Riyadh: [
@@ -61,14 +66,13 @@ export default function FindBoutique() {
   const [selectedBrand, setSelectedBrand] = useState("");
   const [selectedCity, setSelectedCity] = useState("");
 
-    const videos = [
-      "https://www.hublot.com/sites/default/files/2025-07/Classic%20Fusion%20Titanium%20Essential%20Taupe%20-%20Loop%203%20-%20Horizontal%20-%20optim.mp4",
+  const videos = [
+    "https://www.hublot.com/sites/default/files/2025-07/Classic%20Fusion%20Titanium%20Essential%20Taupe%20-%20Loop%203%20-%20Horizontal%20-%20optim.mp4",
     "https://a.storyblok.com/f/275463/x/ba35217f5a/gc-atelier-is.mp4",
     "https://objects-prod.cdn.chopard.com/video/upload/e-merchandising_push/chopard_IC_sculptedbylight_C1_bagueH_20s_1080p25.webm",
-
     "https://azzafahmy.com/cdn/shop/videos/c/vp/1da6fcc19aa0411bb783ca91956d27e4/1da6fcc19aa0411bb783ca91956d27e4.HD-1080p-7.2Mbps-47644428.mp4?v=0",
     "https://videos.pexels.com/video-files/8940053/8940053-uhd_2732_1440_25fps.mp4",
-    "https://videos.pexels.com/video-files/6469640/6469640-uhd_1440_2116_30fps.mp4"
+    "https://videos.pexels.com/video-files/6469640/6469640-uhd_1440_2116_30fps.mp4",
   ];
 
   const [currentVideo, setCurrentVideo] = useState(0);
@@ -77,21 +81,25 @@ export default function FindBoutique() {
     setCurrentVideo((prev) => (prev + 1) % videos.length); // loop back
   };
 
+  // ✅ Helper to add space in camel-case brand names
+  const formatBrandName = (name) =>
+    name.replace(/([a-z])([A-Z])/g, "$1 $2");
+
   return (
     <>
       <Header />
       <div className="relative min-h-screen flex flex-col items-center justify-center text-white py-12 px-4">
         {/* Background Video */}
-          <video
-      key={currentVideo} // forces re-render when video changes
-      className="absolute inset-0 w-full h-full object-cover"
-      autoPlay
-      muted
-      playsInline
-      onEnded={handleVideoEnd}
-    >
-      <source src={videos[currentVideo]} type="video/mp4" />
-    </video>
+        <video
+          key={currentVideo} // forces re-render when video changes
+          className="absolute inset-0 w-full h-full object-cover"
+          autoPlay
+          muted
+          playsInline
+          onEnded={handleVideoEnd}
+        >
+          <source src={videos[currentVideo]} type="video/mp4" />
+        </video>
 
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/50"></div>
@@ -109,19 +117,17 @@ export default function FindBoutique() {
                   onClick={() => setSelectedBrand(brand)}
                   className="px-6 py-4 bg-white text-black shadow-lg rounded-lg text-lg font-semibold hover:bg-gray-100 transition"
                 >
-                  {brand}
+                  {formatBrandName(brand)}
                 </button>
               ))}
             </div>
           )}
 
-
-
           {/* Step 2 - City Selection */}
           {selectedBrand && !selectedCity && (
             <div className="mt-8">
               <h2 className="text-2xl font-semibold mb-4">
-                Choose a City for {selectedBrand}
+                Choose a City for {formatBrandName(selectedBrand)}
               </h2>
               <div className="flex flex-wrap gap-4">
                 {Object.keys(locations[selectedBrand]).map((city) => (
@@ -149,11 +155,11 @@ export default function FindBoutique() {
           {selectedBrand && selectedCity && (
             <div className="mt-8 max-w-lg w-full bg-white text-black rounded-lg shadow-lg p-6">
               <h3 className="text-2xl font-bold mb-4">
-                {selectedBrand} Boutiques in {selectedCity}
+                {formatBrandName(selectedBrand)} Boutiques in {selectedCity}
               </h3>
 
               {locations[selectedBrand][selectedCity] &&
-                locations[selectedBrand][selectedCity].length > 0 ? (
+              locations[selectedBrand][selectedCity].length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
                   {locations[selectedBrand][selectedCity].map(
                     (address, index) => (
@@ -179,8 +185,6 @@ export default function FindBoutique() {
                 </div>
               )}
 
-
-
               {/* Back to city selection */}
               <button
                 onClick={() => setSelectedCity("")}
@@ -188,27 +192,17 @@ export default function FindBoutique() {
               >
                 ← Back
               </button>
-
-              {/* <Link
-                to="/home"
-                className="mt-6 inline-block px-9 py-3 bg-black text-white font-semibold hover:bg-gray-700 transition"
-                onClick={() => {
-                  setSelectedBrand("");
-                  setSelectedCity("");
-                }}
-              >
-                Home
-              </Link> */}
             </div>
           )}
 
-          <div className="w-full flex  justify-start mt-16">
-            <Link to="home" className="p-3 bg-white text-black flex  rounded-lg shadow-md hover:bg-gray-100 transition">
+          <div className="w-full flex justify-start mt-16">
+            <Link
+              to="home"
+              className="p-3 bg-white text-black flex rounded-lg shadow-md hover:bg-gray-100 transition"
+            >
               <HomeIcon /> <span className="ml-2">Home</span>
             </Link>
           </div>
-
-
         </div>
       </div>
 
