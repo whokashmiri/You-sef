@@ -61,23 +61,37 @@ export default function FindBoutique() {
   const [selectedBrand, setSelectedBrand] = useState("");
   const [selectedCity, setSelectedCity] = useState("");
 
+    const videos = [
+      "https://www.hublot.com/sites/default/files/2025-07/Classic%20Fusion%20Titanium%20Essential%20Taupe%20-%20Loop%203%20-%20Horizontal%20-%20optim.mp4",
+    "https://a.storyblok.com/f/275463/x/ba35217f5a/gc-atelier-is.mp4",
+    "https://objects-prod.cdn.chopard.com/video/upload/e-merchandising_push/chopard_IC_sculptedbylight_C1_bagueH_20s_1080p25.webm",
+
+    "https://azzafahmy.com/cdn/shop/videos/c/vp/1da6fcc19aa0411bb783ca91956d27e4/1da6fcc19aa0411bb783ca91956d27e4.HD-1080p-7.2Mbps-47644428.mp4?v=0",
+    "https://videos.pexels.com/video-files/8940053/8940053-uhd_2732_1440_25fps.mp4",
+    "https://videos.pexels.com/video-files/6469640/6469640-uhd_1440_2116_30fps.mp4"
+  ];
+
+  const [currentVideo, setCurrentVideo] = useState(0);
+
+  const handleVideoEnd = () => {
+    setCurrentVideo((prev) => (prev + 1) % videos.length); // loop back
+  };
+
   return (
     <>
       <Header />
       <div className="relative min-h-screen flex flex-col items-center justify-center text-white py-12 px-4">
         {/* Background Video */}
-        <video
-          className="absolute inset-0 w-full h-full object-cover"
-          autoPlay
-          loop
-          muted
-          playsInline
-        >
-          <source
-            src="https://a.storyblok.com/f/275463/x/ba35217f5a/gc-atelier-is.mp4"
-            type="video/mp4"
-          />
-        </video>
+          <video
+      key={currentVideo} // forces re-render when video changes
+      className="absolute inset-0 w-full h-full object-cover"
+      autoPlay
+      muted
+      playsInline
+      onEnded={handleVideoEnd}
+    >
+      <source src={videos[currentVideo]} type="video/mp4" />
+    </video>
 
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/50"></div>
