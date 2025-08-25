@@ -3,16 +3,15 @@ import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 
 const BRAND_LOGOS = [
-              "https://www.attarunited.com/wp-content/uploads/2020/03/lgr.jpg",
+  "https://www.attarunited.com/wp-content/uploads/2020/03/lgr.jpg",
   "https://logos-world.net/wp-content/uploads/2020/11/Hublot-Logo-700x394.png",
-  // "https://cdn.brandfetch.io/id7yvOb0kK/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B",
-  "https://luvor.com/wp-content/uploads//2020/10/Luvor-B-Logo-1.svg",
-  "https://cdn.brandfetch.io/id4CB7EiAA/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B",
+  "https://cdn.brandfetch.io/id7yvOb0kK/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B",
+  "https://cdn.brandfetch.io/id4CB7EiAA/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B", // scale this down
   "https://cdn.brandfetch.io/idJhPZ5W91/w/5760/h/1106/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
-  "https://almajedjewellery.me/wp-content/uploads/2019/11/Gerald-Charles.png"
+  "https://almajedjewellery.me/wp-content/uploads/2019/11/Gerald-Charles.png",
 ];
 
-// Autoplay plugin (pauses on hover and while dragging)
+// Autoplay plugin
 function Autoplay(slider) {
   let timeout;
   let mouseOver = false;
@@ -78,7 +77,9 @@ const BrandsCarousel = () => {
               <img
                 src={url}
                 alt={`Brand ${i + 1}`}
-                className="max-h-full max-w-[80%] object-contain opacity-80 hover:opacity-100 transition"
+                className={`max-h-full object-contain opacity-80 hover:opacity-100 transition ${
+                  i === 3 ? "max-w-[60%]" : "max-w-[80%]"
+                }`}
                 loading="lazy"
               />
             </div>

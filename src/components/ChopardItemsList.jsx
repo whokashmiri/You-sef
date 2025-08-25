@@ -69,7 +69,7 @@ const items = [
       "https://objects-prod.cdn.chopard.com/q_auto,f_auto,dpr_2/e_trim/w_iw,h_ih,c_lpad,g_center/c_pad,ar_1:1,w_1490,e_sharpen:60/ProductsAssets/Web/278573-3012_01.png",
       "https://objects-prod.cdn.chopard.com/q_auto,f_auto,dpr_2/c_pad,ar_1:1,w_1490,e_sharpen:60/ProductsAssets/Web/278573-3012_04.png",
       "https://luxurypromise.com/cdn/shop/files/luxury-promise-japan-chopard-happy-sport-27-8250-23-5p-diamond-white-dial-ladies-watch-90278967-1171490344.webp?v=1751785249&width=1200",
-      "https://www.graff.com/dw/image/v2/BFNT_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd8d0556d/sfcc-graff-staging/i/m/a/g/e/images_hi_res_GSU43DLCB2_GW10489_side_3.jpg?sw=3000&sh=3000"
+      // "https://www.graff.com/dw/image/v2/BFNT_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd8d0556d/sfcc-graff-staging/i/m/a/g/e/images_hi_res_GSU43DLCB2_GW10489_side_3.jpg?sw=3000&sh=3000"
     ]
   }
   ,
@@ -90,10 +90,10 @@ const items = [
     title: "Happy Sport",
     description: "30 mm, quartz, Lucent Steel™, diamonds",
     images: [
-      "https://img.chrono24.com/images/uhren/41878591-ozce7bc8syljmr5k52ny0jxo-Square480.jpg",
-      "https://img.chrono24.com/images/uhren/41878591-lua9ls15kodm03o5cizjpqpv-Square480.jpg",
-      "https://www.graff.com/dw/image/v2/BFNT_PRD/on/demandware.static/-/Sites-master-catalog/default/dw969f8c34/sfcc-graff-staging/G/F/W/1/6/GFW16WGDDD_GW12603_back.jpg?sw=2000&sh=2000",
-      "https://img.chrono24.com/images/uhren/23076553-fbmk1dr9k3hmlbrj5vi45wcp-Square480.jpg"
+      "https://objects-prod.cdn.chopard.com/q_auto,f_auto,dpr_2/e_trim/w_iw,h_ih,c_lpad,g_center/c_pad,ar_1:1,w_1490,e_sharpen:60/ProductsAssets/Web/298600-3033_01.png",
+       "https://objects-prod.cdn.chopard.com/q_auto,f_auto,dpr_2,b_white/e_trim:white/w_iw,h_ih,c_lpad,g_center/c_pad,ar_1:1,w_2560,e_sharpen:100/ProductsAssets/Web/298600-3033_04.png",
+      "https://objects-prod.cdn.chopard.com/q_auto,f_auto,dpr_2/c_pad,ar_1:1,w_1490,e_sharpen:60/ProductsAssets/Web/298600-3033_05.png",
+     
     ]
   }
   ,

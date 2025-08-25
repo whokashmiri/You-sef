@@ -8,10 +8,10 @@ const items = [
     title: "Hublot Classic Fusion",
     description: "581.NX.7071.RX.",
     images: [
-      "https://img.chrono24.com/images/uhren/24232739-3o9b8k8alo7pygbzbffbxahn-Square480.jpg",
-      "https://img.chrono24.com/images/uhren/21128285-c6xgl2xkns75zb104udfimrx-Square480.jpg",
-      "https://img.chrono24.com/images/uhren/35887150-gush17p8cjt7ptrv8tle4j7u-Square480.jpg",
-      "https://img.chrono24.com/images/uhren/29025955-t3207d1wuw01s6nwfrzixh48-Square480.jpg"
+      "https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2025/6/8/a/4/a/a4a56daf-6a77-4c80-93a6-3e1a3eada0e1.jpg@webp",
+      "https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2025/6/8/f/1/7/f1703908-bbb5-48a6-922c-4e641ddb871d.jpg@webp",
+      // "https://img.chrono24.com/images/uhren/35887150-gush17p8cjt7ptrv8tle4j7u-Square480.jpg"
+      // "https://img.chrono24.com/images/uhren/29025955-t3207d1wuw01s6nwfrzixh48-Square480.jpg"
     ]
   },
   {
@@ -19,10 +19,10 @@ const items = [
     title: "Classic Fusion Racing Grey Titanium 33mm",
     description: "581.NX.7071.LR.1104.",
     images: [
-      "https://img.thehourglass.com/tachyon/2023/10/581.NX_.7071.LR_.1104.jpg?w=3840&quality=100",
-      "https://i.ebayimg.com/images/g/OCYAAeSw2~loY210/s-l1600.webp",
-      "https://i.ebayimg.com/images/g/t-AAAeSwmd5oY210/s-l1600.webp",
-      "https://i.ebayimg.com/images/g/sMgAAeSwkVFoY210/s-l1600.webp"
+      "https://i.ebayimg.com/images/g/DwUAAOSwKkZoXRrG/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/26gAAOSwzy9oXRrZ/s-l960.webp",
+      // "https://i.ebayimg.com/images/g/t-AAAeSwmd5oY210/s-l1600.webp",
+      // "https://i.ebayimg.com/images/g/sMgAAeSwkVFoY210/s-l1600.webp"
     ]
   },
    {
@@ -44,7 +44,7 @@ const items = [
     images: [
       "https://www.hublot.com/sites/default/files/styles/watch_item_desktop_2x/public/2025-03/Classic-Fusion-Titanium-Green-Diamonds-33-mm-Soldier.png?itok=OMR9K5D9",
       "https://imagedelivery.net/lyg2LuGO05OELPt1DKJTnw/ca8f1fdc-1e07-4cb1-95ff-9a3a665df100/public",
-      "https://cdn.clothbase.com/uploads/4b59625e-0879-47d8-bbb7-1a7e2ef8c96d/lavjnlmu2kacrfnct9jd.jpg?class=card",
+      // "https://cdn.clothbase.com/uploads/4b59625e-0879-47d8-bbb7-1a7e2ef8c96d/lavjnlmu2kacrfnct9jd.jpg?class=card",
       "https://cdn.clothbase.com/uploads/dd6e33d0-a727-4a9b-ae5a-4ceeb3876fea/mtq7j5i9rfiswgbiheel.jpg"
     ]
   }
@@ -54,7 +54,7 @@ const items = [
     title: "Hublot Classic Fusion",
     description: "581.NX.7170.RX.1104",
     images: [
-      "https://i.ebayimg.com/images/g/uecAAOSwxAdnJFzJ/s-l1600.webp",
+      "https://www.hublot.com/sites/default/files/styles/watch_item_desktop_1x_scale_no_crop_600_6000_/public/2025-03/Classic-Fusion-Titanium-Blue-Diamonds-33-mm-Soldier.png?itok=vsq9P5IT",
       "https://i.ebayimg.com/images/g/meUAAOSw5lFnJFzJ/s-l1600.webp",
       "https://i.ebayimg.com/images/g/DaYAAOSw-mpnJFzJ/s-l1600.webp",
       "https://i.ebayimg.com/images/g/5iQAAeSwfMxoADli/s-l1600.webp"
@@ -78,9 +78,9 @@ const items = [
     title: "Hublot Classic Fusion Quartz",
     description: "Diamond Watch 581.NX.1470.RX.1104.",
     images: [
-      "https://img.chrono24.com/images/uhren/34383185-tloiqi0xwazeig5b4ddin4h8-Square480.jpg",
+      "https://www.hublot.com/sites/default/files/styles/watch_item_desktop_1x_scale_no_crop_600_6000_/public/2023-02/Classic-Fusion-Titanium-diamonds-33-mm-soldier-shot.png?itok=1Htm1-E_",
       "https://img.chrono24.com/images/uhren/41764320-vtto5i363sjm7mixepcdzyzw-Square480.jpg",
-      "https://img.chrono24.com/images/uhren/29378289-ejrpo29os4g1rhrsikibkswr-Square480.jpg",
+      // "https://img.chrono24.com/images/uhren/29378289-ejrpo29os4g1rhrsikibkswr-Square480.jpg",
       "https://img.chrono24.com/images/uhren/38735431-g94b8l0497008wy9qs0ks0s5-Square480.jpg"
     ]
   }
@@ -91,9 +91,8 @@ const items = [
     description: "Quartz 33mm 581.nx.7071.lr.1104.",
     images: [
       "https://www.hublot.com/sites/default/files/styles/watch_item_desktop_2x/public/2025-03/classic-fusion-33-581.NX_.7071.RX_.1104.png?itok=E0e-P065",
-      "https://img.chrono24.com/images/uhren/images_14/s3/4996314_xxl.jpg",
-      "https://img.chrono24.com/images/uhren/images_14/s3/4996314_xxl.jpg",
-      "https://img.chrono24.com/images/uhren/34306727-41phfc1xt64r3zwc07xzpuvv-ExtraLarge.jpg"
+      "https://www.hublot.com/sites/default/files/styles/watch_item_desktop_1x_scale_no_crop_600_6000_/public/2025-03/classic-fusion-33-581.NX_.7071.RX_.1104.png?itok=Lm4L8_br",
+      // "https://img.chrono24.com/images/uhren/34306727-41phfc1xt64r3zwc07xzpuvv-ExtraLarge.jpg"
     ]
   }
   ,
@@ -103,9 +102,9 @@ const items = [
     description: "Titanium Diamonds Black Dial 33mm Ladies Watch.",
     images: [
       "https://www.hublot.com/sites/default/files/styles/watch_item_desktop_2x/public/2023-02/Classic-Fusion-Titanium-diamonds-33-mm-soldier-shot.png?itok=1VuMiUAy",
-      "https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2023-07/Classic-Fusion-Titanium-Diamonds-33-mm-close-up-shot.jpeg?itok=WE0okgtV",
-      "https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2023-07/Classic-Fusion-Titanium-Diamonds-33-mm-PR-shot.jpg?itok=6y6Tr6d2",
-      "https://cdn-jnbkl.nitrocdn.com/DSyXimFVbLZsDRQHgxpswYJEIlNbdghE/assets/images/optimized/rev-5c34786/luxurysouq.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/06/Hublot-Classic-Fusion-581.NX_.1470.RX_.1104.jpg.webp"
+      // "https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2023-07/Classic-Fusion-Titanium-Diamonds-33-mm-close-up-shot.jpeg?itok=WE0okgtV",
+      // "https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2023-07/Classic-Fusion-Titanium-Diamonds-33-mm-PR-shot.jpg?itok=6y6Tr6d2",
+      // "https://cdn-jnbkl.nitrocdn.com/DSyXimFVbLZsDRQHgxpswYJEIlNbdghE/assets/images/optimized/rev-5c34786/luxurysouq.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/06/Hublot-Classic-Fusion-581.NX_.1470.RX_.1104.jpg.webp"
     ]
   }
 ];

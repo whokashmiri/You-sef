@@ -93,21 +93,21 @@ const items = [
       "https://www.graff.com/dw/image/v2/BFNT_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb87d10ce/sfcc-graff-staging/G/F/W/1/6/GFW16WGDDD_GW12603_detail.jpg?sw=2000&sh=2000",
       "https://www.graff.com/dw/image/v2/BFNT_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd08bf380/sfcc-graff-staging/G/F/W/1/6/GFW16WGDDD_GW12603_hero.jpg?sw=2000&sh=2000",
       "https://www.graff.com/dw/image/v2/BFNT_PRD/on/demandware.static/-/Sites-master-catalog/default/dw969f8c34/sfcc-graff-staging/G/F/W/1/6/GFW16WGDDD_GW12603_back.jpg?sw=2000&sh=2000",
-      "https://img.chrono24.com/images/uhren/34306727-41phfc1xt64r3zwc07xzpuvv-ExtraLarge.jpg"
+      // "https://img.chrono24.com/images/uhren/34306727-41phfc1xt64r3zwc07xzpuvv-ExtraLarge.jpg"
     ]
   }
   ,
-   {
-    id: 9,
-    title: "Tilda's Bow Diamond Watch",
-    description: "DIAMOND DIAL, WHITE & YELLOW GOLD, TRIPLE ROW DIAMOND STRAP.",
-    images: [
-      "https://www.graff.com/dw/image/v2/BFNT_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf764bca9/sfcc-graff-staging/G/B/W/1/4/GBW14WGYDD_GBW14WGYDD_Hero_1.jpg?sw=2000&sh=2000",
-      "https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2023-07/Classic-Fusion-Titanium-Diamonds-33-mm-close-up-shot.jpeg?itok=WE0okgtV",
-      "https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2023-07/Classic-Fusion-Titanium-Diamonds-33-mm-PR-shot.jpg?itok=6y6Tr6d2",
-      "https://cdn-jnbkl.nitrocdn.com/DSyXimFVbLZsDRQHgxpswYJEIlNbdghE/assets/images/optimized/rev-5c34786/luxurysouq.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/06/Hublot-Classic-Fusion-581.NX_.1470.RX_.1104.jpg.webp"
-    ]
-  }
+  //  {
+  //   id: 9,
+  //   title: "Tilda's Bow Diamond Watch",
+  //   description: "DIAMOND DIAL, WHITE & YELLOW GOLD, TRIPLE ROW DIAMOND STRAP.",
+  //   images: [
+  //     "https://www.graff.com/dw/image/v2/BFNT_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf764bca9/sfcc-graff-staging/G/B/W/1/4/GBW14WGYDD_GBW14WGYDD_Hero_1.jpg?sw=2000&sh=2000",
+  //     "https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2023-07/Classic-Fusion-Titanium-Diamonds-33-mm-close-up-shot.jpeg?itok=WE0okgtV",
+  //     "https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2023-07/Classic-Fusion-Titanium-Diamonds-33-mm-PR-shot.jpg?itok=6y6Tr6d2",
+  //     "https://cdn-jnbkl.nitrocdn.com/DSyXimFVbLZsDRQHgxpswYJEIlNbdghE/assets/images/optimized/rev-5c34786/luxurysouq.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/06/Hublot-Classic-Fusion-581.NX_.1470.RX_.1104.jpg.webp"
+  //   ]
+  // }
 ];
 
 export default function GraffItemsList() {

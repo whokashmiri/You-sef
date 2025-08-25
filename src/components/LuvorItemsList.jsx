@@ -25,8 +25,8 @@ const items = [
     title: "Gerald Charles",
     description: " Gerald Charles Maestro GC2.0 Ultra-Thin UP Ugo Piccini",
     images: [
-      "https://img.chrono24.com/images/uhren/d8oy1uriusqc-eoiklpxnb5hii7v74vb42u05-ExtraLarge.jpg",
-      "https://img.chrono24.com/images/uhren/gfu02xn292nw-431abfq5rb3bwaodj2toxw3s-ExtraLarge.jpg"
+      "https://img.chrono24.com/images/uhren/40916685-49j7htc0y9rjdtyvpcu5dgeh-ExtraLarge.jpg",
+      "https://img.chrono24.com/images/uhren/40916685-uayzfg6i8fy2l2w55bsh9jhv-ExtraLarge.jpg"
     ]
   }
   ,
