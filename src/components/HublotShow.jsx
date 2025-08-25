@@ -26,9 +26,10 @@ const HublotShow = () => {
         <p className="text-white uppercase tracking-widest text-sm md:text-base">
           New Time Pieces Revealed
         </p>
-        <h1 className="text-white text-4xl md:text-6xl font-light mt-4">
-          Hublot 2025
-        </h1>
+ <h1 className="text-white text-4xl md:text-6xl font-light mt-4">
+  Hublot 2025
+</h1>
+
          <button className="mt-6 px-6 py-3 bg-white text-black text-sm font-semibold tracking-wide uppercase hover:bg-gray-200 transition flex items-center gap-2">
   Discover the Collection
   <span className="animate-bounce">

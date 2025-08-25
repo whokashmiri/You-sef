@@ -8,8 +8,8 @@ const items = [
     title: "Gerald Charles",
     description: "Maestro GC Sport Tennis Grass Green Color LIMITED EDITION 200 PIECES NEW UNWORN FULL SET",
     images: [
-      "https://img.chrono24.com/images/uhren/41002430-0d2vl6y4k8j9hob9uf6midia-ExtraLarge.jpg",
-      "https://img.chrono24.com/images/uhren/41002430-bzpqg3116sj4sfs1znsjuetd-ExtraLarge.jpg",
+      "https://cdn-images.farfetch-contents.com/19/15/28/23/19152823_42138735_2048.jpg",
+      "https://cdn-images.farfetch-contents.com/19/15/28/23/19152823_42139415_2048.jpg",
     ]
   },
   {
@@ -17,16 +17,19 @@ const items = [
     title: "Gerald Charles",
     description: "Maestro GC39 25th Anniversary Edition",
     images: [
-"https://img.chrono24.com/images/uhren/41157251-1sisa1ao3gp0bmf680py969x-ExtraLarge.jpg",
-"https://img.chrono24.com/images/uhren/41157251-es9px16u66diq69p8mrypnaz-ExtraLarge.jpg" ]
+      "https://www.osterjewelers.com/cdn/shop/files/GeraldCharlesMaestroGC3925thAnniversaryEdition-Caseback_1050x1500.jpg?v=1743461153",
+"https://cdn.shopify.com/s/files/1/0664/5760/0317/files/GC39_Soldatino_Front.png?v=1742990754",
+ ]
   },
    {
     id: 3,
     title: "Gerald Charles",
     description: " Gerald Charles Maestro GC2.0 Ultra-Thin UP Ugo Piccini",
     images: [
-      "https://img.chrono24.com/images/uhren/40916685-49j7htc0y9rjdtyvpcu5dgeh-ExtraLarge.jpg",
-      "https://img.chrono24.com/images/uhren/40916685-uayzfg6i8fy2l2w55bsh9jhv-ExtraLarge.jpg"
+      "https://luxurysouq.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/01/Gerald-Charles-GC2.0-A-00.jpg.webp",
+      "https://a.storyblok.com/f/275463/800x800/3131aa82ce/maestro-collection-cover.jpg",
+      "https://img.chrono24.com/images/uhren/40916685-uayzfg6i8fy2l2w55bsh9jhv-ExtraLarge.jpg",
+      
     ]
   }
   ,
@@ -35,8 +38,8 @@ const items = [
     title: "Gerald Charles",
     description: " Fine & Mint Automatic Maestro 3.0 Chronograph Green",
     images: [
-      "https://img.chrono24.com/images/uhren/37995595-izc5xfbp2svsmqos5l3z9y1x-ExtraLarge.jpg",
-    "https://img.chrono24.com/images/uhren/37995595-29u0l64o4ewzr8tkzcyyb5v3-ExtraLarge.jpg",
+      "https://luxurysouq.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/01/Gerald-Charles-GC2.0-WG-AJ-02.jpg.webp",
+    "https://luxurysouq.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/01/Gerald-Charles-GC2.0-WG-AJ-02-0-3.jpg.webp",
 
     ]
   }
@@ -46,8 +49,8 @@ const items = [
     title: "Gerald Charles",
     description: "Maestro 2.0 Ultra-Thin",
     images: [
-      "https://img.chrono24.com/images/uhren/40897887-cr18fbz4mwc13peb9b5kpr5a-ExtraLarge.jpg",
-      "https://img.chrono24.com/images/uhren/40897887-q8cqvkhtcvwgzahk90bsboir-ExtraLarge.jpg"
+      "https://luxurysouq.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/01/Gerald-Charles-Original-Time-GC20-DLC-01.jpg.webp",
+      "https://luxurysouq.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/01/Gerald-Charles-Original-Time-GC20-DLC-01-1.jpg.webp"
     ]
   }
   ,
@@ -56,8 +59,8 @@ const items = [
     title: "Gerald Charles",
     description: " GC2.0-TX-TNSB-24GR-RSVC",
     images: [
-      "https://img.chrono24.com/images/uhren/41157493-gafr2h6n5vhk9t8rrkjax75j-ExtraLarge.jpg",
-      "https://img.chrono24.com/images/uhren/41157493-3st9eii43yd2wnq5w478ye0c-ExtraLarge.jpg"
+      "https://www.osterjewelers.com/cdn/shop/files/GeraldCharlesMaestro3.0ChronographGreen_1050x1500.png?v=1715277578",
+      "https://www.osterjewelers.com/cdn/shop/files/GeraldCharlesMaestro3.0ChronographGreen-Side_1050x1500.png?v=1715277578"
     ]
   }
   ,
@@ -116,7 +119,7 @@ export default function LuvorItemsList() {
         >
           {/* Smooth fading background image */}
           <div
-            className={`absolute inset-0 bg-cover bg-center transition-opacity duration-500 ${
+            className={`absolute inset-0 bg-cover bg-center  transition-opacity duration-500 ${
               fadeStates[idx] ? "opacity-100" : "opacity-0"
             }`}
             style={{

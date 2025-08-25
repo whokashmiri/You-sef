@@ -29,7 +29,7 @@ const Azza = () => {
           New Collection Revealed
         </p>
         <h1 className="text-white uppercase text-4xl md:text-6xl font-light mb-6">
-          azza fahmy 2025
+          Azza Fahmy <span className="mx-2"></span> 2025
         </h1>
         <Link to="/azza" className="px-6 py-3 bg-slate-600 bg-opacity-20 backdrop-blur-md text-white text-sm uppercase tracking-widest hover:bg-gray-700 transition">
           Discover the Collection

@@ -19,8 +19,9 @@ const items = [
     title: "Classic Fusion Racing Grey Titanium 33mm",
     description: "581.NX.7071.LR.1104.",
     images: [
-      "https://i.ebayimg.com/images/g/DwUAAOSwKkZoXRrG/s-l1600.webp",
       "https://i.ebayimg.com/images/g/26gAAOSwzy9oXRrZ/s-l960.webp",
+      "https://i.ebayimg.com/images/g/DwUAAOSwKkZoXRrG/s-l1600.webp",
+      
       // "https://i.ebayimg.com/images/g/t-AAAeSwmd5oY210/s-l1600.webp",
       // "https://i.ebayimg.com/images/g/sMgAAeSwkVFoY210/s-l1600.webp"
     ]

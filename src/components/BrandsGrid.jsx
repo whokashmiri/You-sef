@@ -77,7 +77,7 @@ const BrandsCarousel = () => {
               <img
                 src={url}
                 alt={`Brand ${i + 1}`}
-                className={`max-h-full object-contain opacity-80 hover:opacity-100 transition ${
+                className={`max-h-full object-contain opacity-80 scale-90 hover:opacity-100 transition ${
                   i === 3 ? "max-w-[60%]" : "max-w-[80%]"
                 }`}
                 loading="lazy"
