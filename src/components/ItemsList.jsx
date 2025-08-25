@@ -8,8 +8,8 @@ const items = [
     title: "Hublot Classic Fusion",
     description: "581.NX.7071.RX.",
     images: [
-      "https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2025/6/8/a/4/a/a4a56daf-6a77-4c80-93a6-3e1a3eada0e1.jpg@webp",
-      "https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2025/6/8/f/1/7/f1703908-bbb5-48a6-922c-4e641ddb871d.jpg@webp",
+      "https://www.hublot.com/sites/default/files/styles/watch_item_desktop_1x_scale_no_crop_600_6000_/public/2023-01/542.NX_.1270.RX_.MDM-classic-fusion-original-titanium-42-mm.png?itok=xm_X1fnE",
+      "https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2023-01/542.NX_.1270.RX_.MDM-classic-fusion-original-titanium-42-mm-pr.jpg?itok=TWEoP1uO",
       // "https://img.chrono24.com/images/uhren/35887150-gush17p8cjt7ptrv8tle4j7u-Square480.jpg"
       // "https://img.chrono24.com/images/uhren/29025955-t3207d1wuw01s6nwfrzixh48-Square480.jpg"
     ]
@@ -19,8 +19,8 @@ const items = [
     title: "Classic Fusion Racing Grey Titanium 33mm",
     description: "581.NX.7071.LR.1104.",
     images: [
-      "https://i.ebayimg.com/images/g/26gAAOSwzy9oXRrZ/s-l960.webp",
-      "https://i.ebayimg.com/images/g/DwUAAOSwKkZoXRrG/s-l1600.webp",
+      "https://www.hublot.com/sites/default/files/styles/watch_item_desktop_1x_scale_no_crop_600_6000_/public/2023-01/542.VX_.1270.RX_.MDM-classic-fusion-original-yellow-gold-42-mm.png?itok=KxY_8DYT",
+      "https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2023-01/542.VX_.1270.RX_.MDM-classic-fusion-original-yellow-gold-42-mm-pr.jpg?itok=xZCb_ByA",
       
       // "https://i.ebayimg.com/images/g/t-AAAeSwmd5oY210/s-l1600.webp",
       // "https://i.ebayimg.com/images/g/sMgAAeSwkVFoY210/s-l1600.webp"
